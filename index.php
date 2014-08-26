@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Firefox OS en France</title>
   <link rel="stylesheet" type="text/css" href="http://www.mozfr.org/custom/style/mozfr.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="http://www.mozfr.org//favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="http://www.mozfr.org/favicon.ico" />
 
 </head>
 <body>
