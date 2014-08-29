@@ -41,6 +41,21 @@ html,body{
 			#achat{
 				padding-left:1%;
 			}
+			#sommaire{
+					display:inline-block;
+					position: relative;
+					width:55%;
+					padding-left:3%;			
+			}
+			#firefoxos-wrapper{
+					display:inline-block;
+					vertical-align:baseline;
+					width:30%;
+					
+			}
+			#reponse{
+				padding-left:3%;			
+			}
 			@media only screen and (orientation : portrait) {
 				#achat, #aide, #reseaux,#reclame, #toutyest, #futur{
 					padding:2%;

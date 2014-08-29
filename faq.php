@@ -5,26 +5,8 @@
 		<title>FAQ sur Firefox OS pour le ZTE OPEN C</title>
   		<meta name="viewport" content="width=device-width,initial-scale=1" />
   		<link rel="stylesheet" type="text/css" href="http://www.mozfr.org/custom/style/mozfr.css" />
+		
   		<link rel="shortcut icon" type="image/x-icon" href="http://www.mozfr.org/favicon.ico" />
-		<style>
-			#sommaire{
-					display:inline-block;
-					position: relative;
-					width:55%;
-					padding-left:3%;			
-			}
-			#firefoxos-wrapper{
-					display:inline-block;
-					vertical-align:baseline;
-					width:30%;
-					
-			}
-			#reponse{
-				padding-left:3%;			
-			}
-			
-		</style>
-
 	</head>
 	<body>
 <?php include 'header.php';?>
