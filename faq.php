@@ -113,7 +113,7 @@ Le reste des données peut être copié sur le téléphone facilement (images, v
 		    <dt id="apps"> On trouve où les applications ?</dt>
 				<dd> Sur le Marketplace (<a href="https://marketplace.firefox.com/">
 https://marketplace.firefox.com/</a>)et sur certains sites qui proposent des applications sans passer par le marketplace.
-on peut aussi faire une «&nbsp;recherche intelligente&nbsp;»&nbsp;: des applications, webapps ainsi que des sites web sont directement accessibles (pas besoin de télécharger et installer pour utiliser). De plus, quand on ouvre le lien, on arrive directement sur le sujet qu'on recherchait à l'intérieur de l'application.</dd>
+On peut aussi faire une «&nbsp;recherche intelligente&nbsp;»&nbsp;: des applications, webapps ainsi que des sites web sont directement accessibles (pas besoin de télécharger et installer pour utiliser). De plus, quand on ouvre le lien, on arrive directement sur le sujet qu'on recherchait à l'intérieur de l'application.</dd>
 		    <dt id="sim"> Quelle taille de carte SIM ?</dt> 
 		        <dd>normale</dd>
 		    <dt id="kesako"> C'est quoi exactement, qu'est-ce-que je peux faire avec ?</dt> 
@@ -123,8 +123,8 @@ on peut aussi faire une «&nbsp;recherche intelligente&nbsp;»&nbsp;: des applic
     			<li><a href="http://forums.mozfr.org">http://forums.mozfr.org</a></li>
     			<li><a href="https://support.mozilla.org/fr/products/firefox-os">https://support.mozilla.org/fr/products/firefox-os</a></li>
 				<li> irc.mozilla.org #frenchmoz </li> </ul></dd>
-		    <dt id="reactif"> Quelqu'un sait-il ce que ça donne en terme de réactivité ?</dt> 
-				<dd>Il est réactif et fluide, bien + "léger" qu'un android. il demande moins de ressources aussi</dd>
+		    <dt id="reactif"> Quelqu'un sait-il ce que ça donne en termes de réactivité ?</dt> 
+				<dd>Il est réactif et fluide, bien + "léger" qu'un Android. Il demande moins de ressources aussi</dd>
 		    <dt id="batterie"> La batterie dure longtemps ?</dt> 
 		        <dd>Tout dépend du l'utilisation, mais deux voir trois journées sont possibles environ.</dd>
 		    <dt id="androidpascher"> Il existe des versions d'Android pour les téléphones bon marché... En quoi Firefox OS se démarque-t-il ?</dt> 
@@ -136,7 +136,7 @@ on peut aussi faire une «&nbsp;recherche intelligente&nbsp;»&nbsp;: des applic
 		    <dt id="sav"> Comment marche le SAV ?</dt> 
 		        <dd>Le SAV est assuré par ZTE France</dd>
 		    <dt id="langues"> Quelles sont les langues disponibles sur le ZTE Open C ?</dt> 
-		        <dd>Du Français à l'Anglais en passant par le Catalan plus de 25 langues sont disponibles</dd>
+		        <dd>Du français à l'anglais en passant par le catalan plus de 25 langues sont disponibles</dd>
 		    <dt id="radio"> Possède-t-il la radio ?</dt>
 					<dd>Oui il possède un module de radio FM. Toutefois des écouteurs sont nécessaires pour faire antenne.</dd>
 		    <dt id="bidouille"> Où puis-je trouver des informations sur le root et la bidouille du téléphone ?</dt> 

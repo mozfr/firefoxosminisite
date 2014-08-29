@@ -45,7 +45,7 @@
 			<div id="reseaux">
 				<p> Retrouvez-nous sur les réseaux sociaux:</p>
 				<ul>
-					<li><img src="img/twitter.png" alt="twitter image"/> <a href="https://twitter.com/firefoxosfr">Twitter </a> et suivrez <a href="https://twitter.com/search?q=%23firefoxosfr"> #FirefoxOSfr </a></li>
+					<li><img src="img/twitter.png" alt="twitter image"/> <a href="https://twitter.com/firefoxosfr">Twitter </a> et suivez <a href="https://twitter.com/search?q=%23firefoxosfr"> #FirefoxOSfr </a></li>
 					<li><img src="img/facebook.png" alt="fb image"/> <a href="https://www.facebook.com/firefoxosfr">Facebook </a></li>
 					<li><img src="img/googleplus1.gif" alt="g+ image"/> <a href="https://plus.google.com/102403271624576887074/posts"> Google+</a></li>
 					<li><img src="img/youtube.png" alt="youtube image"/> <a href="https://www.youtube.com/user/FirefoxOSfr"> Youtube </a></li>
