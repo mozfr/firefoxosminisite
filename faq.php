@@ -5,12 +5,12 @@
 		<title>FAQ sur Firefox OS pour le ZTE OPEN C</title>
   		<meta name="viewport" content="width=device-width,initial-scale=1" />
   		<link rel="stylesheet" type="text/css" href="http://www.mozfr.org/custom/style/mozfr.css" />
-		
+		<link rel="stylesheet" type="text/css" href="mozfr-firefoxos.css" />
   		<link rel="shortcut icon" type="image/x-icon" href="http://www.mozfr.org/favicon.ico" />
 	</head>
 	<body>
 <?php include 'header.php';?>
-
+		<div class="faq">
 		<h2> Retrouvez ici les questions et les réponses à propos du ZTE Open C. Vous pouvez aussi consulter <a href="http://www.ztefrance.com/downloads/Fiche_Produit_ZTE_Open_C.pdf">la fiche produit </a></h2>
 <div id="sommaire"><h3>Questions : </h3>
 		<ul>
@@ -132,9 +132,8 @@ ZTE fournit un logiciel qui permet de rooter son Open C et le mettre à jour ave
 LTE est intégré dans la version 1.4. cf. https://wiki.mozilla.org/B2G/Roadmap/Archive_-_Past_Releases_Complete_Features
 Au MWC2014, Alcatel avait fait une annonce pour l'Alcatel OneTouch Fire S prévu pour décembre 2014 : http://www.phonearena.com/phones/Alcatel-OneTouch-Fire-S_id8451 </dd>
 		</dl>
-
-<div>
-
+		</div>
+		</div>
 
 
 

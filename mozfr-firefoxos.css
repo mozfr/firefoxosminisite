@@ -59,6 +59,16 @@ html,body{
 			.uppercase {
 				text-transform: uppercase;
 			}
+			.faq {
+				padding:1em;
+			}
+			.faq #firefoxos-wrapper{
+				width:100%;
+			}
+			.faq dt {
+				font-weight:bold;
+				margin-top: 1em;
+			}
 			@media only screen and (orientation : portrait) {
 				#achat, #aide, #reseaux,#reclame, #toutyest, #futur{
 					padding:2%;
