@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		 <meta charset="utf-8" /> 
-		<title>FirefoxOS</title>
+		<meta charset="utf-8" />
+		<title>Firefox OS</title>
   		<meta name="viewport" content="width=device-width,initial-scale=1" />
   		<link rel="stylesheet" type="text/css" href="http://www.mozfr.org/custom/style/mozfr.css" />
 		<link rel="stylesheet" type="text/css" href="mozfr-firefoxos.css" />
   		<link rel="shortcut icon" type="image/x-icon" href="http://www.mozfr.org/favicon.ico" />
 		<script src="http://www.mozfr.org/custom/js/jquery-1.7.2.min.js" type="text/javascript"></script>
 		<script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
-		  <script src="http://www.mozfr.org/custom/js/nav-main.js" type="text/javascript"></script>
+		<script src="http://www.mozfr.org/custom/js/nav-main.js" type="text/javascript"></script>
+		<meta name="description" content="Firefox OS vous offre toutes les fonctionnalités qui vous ont donné envie d'avoir un smartphone." />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@mozilla_fr" />
+		<meta name="twitter:title" content="Firefox OS" />
+		<meta name="twitter:description" content="Firefox OS vous offre toutes les fonctionnalités qui vous ont donné envie d'avoir un smartphone." />
+		<meta name="twitter:image:src" content="http://fireofoxos.mozfr.org/img/zteopenc-redim.png" />
+		<meta property="og:title" content="Firefox OS" />
+		<meta property="og:url" content="http://fireofoxos.mozfr.org/" />
+		<meta property="og:image" content="http://fireofoxos.mozfr.org/img/zteopenc-redim.png" />
+		<meta property="og:description" content="Firefox OS vous offre toutes les fonctionnalités qui vous ont donné envie d'avoir un smartphone." />
 	</head>
 	<body>
 		<?php include 'header.php';?>
