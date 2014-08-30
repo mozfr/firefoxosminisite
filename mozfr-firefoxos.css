@@ -56,6 +56,9 @@ html,body{
 			#reponse{
 				padding-left:3%;			
 			}
+			.uppercase {
+				text-transform: uppercase;
+			}
 			@media only screen and (orientation : portrait) {
 				#achat, #aide, #reseaux,#reclame, #toutyest, #futur{
 					padding:2%;
