@@ -15,8 +15,8 @@
 		<?php include 'header.php';?>
 		<div id="centre">
 			<div id="reclame">
-				<h1>REGARDEZ L'AVENIR</h1>
-				<img src="img/zteopenc-redim.png" alt="Téléphone ZTE Open C" height="100%" style="text-align:center;">
+				<h1 class="uppercase">Regardez l'avenir</h1>
+				<img src="img/zteopenc-redim.png" alt="Téléphone ZTE Open C" style="text-align:center;">
 			</div>
 			<div id="toutyest">
 				<h1>Tout y est </h1>
