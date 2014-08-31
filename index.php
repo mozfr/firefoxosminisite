@@ -17,10 +17,10 @@
 		<meta name="twitter:creator" content="@mozilla_fr" />
 		<meta name="twitter:title" content="Firefox OS" />
 		<meta name="twitter:description" content="Firefox OS vous offre toutes les fonctionnalités qui vous ont donné envie d'avoir un smartphone." />
-		<meta name="twitter:image:src" content="http://fireofoxos.mozfr.org/img/zteopenc-redim.png" />
+		<meta name="twitter:image:src" content="http://firefoxos.mozfr.org/img/zteopenc-redim.png" />
 		<meta property="og:title" content="Firefox OS" />
-		<meta property="og:url" content="http://fireofoxos.mozfr.org/" />
-		<meta property="og:image" content="http://fireofoxos.mozfr.org/img/zteopenc-redim.png" />
+		<meta property="og:url" content="http://firefoxos.mozfr.org/" />
+		<meta property="og:image" content="http://firefoxos.mozfr.org/img/zteopenc-redim.png" />
 		<meta property="og:description" content="Firefox OS vous offre toutes les fonctionnalités qui vous ont donné envie d'avoir un smartphone." />
 	</head>
 	<body>
@@ -67,7 +67,7 @@
 			<div id="aide">
 				<p>Vous pouvez obtenir de l'aide à  différents endroits : </p>
 				<ul>	
-					<li><a href="http://fireofoxos.mozfr.org/faq.php"> Foire aux questions </a></li>
+					<li><a href="faq.php"> Foire aux questions </a></li>
 					<li><a href="http://forums.mozfr.org">http://forums.mozfr.org</a></li>
 	    			<li><a href="https://support.mozilla.org/fr/products/firefox-os">https://support.mozilla.org/fr/products/firefox-os</a></li>
 					<li><a href="irc://irc.mozilla.org/#frenchmoz"> irc://irc.mozilla.org/#frenchmoz </a></li> 
