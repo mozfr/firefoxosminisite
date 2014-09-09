@@ -45,7 +45,7 @@
 		</div> 
 		<div id="footer">
 			<div id="achat">
-				<p>Vous pouvez acheter le ZTE OPEN C chez:</p>
+				<p>Vous pouvez acheter le ZTE OPEN C chez&nbsp;: </p>
 				<ul>
 					<li itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta content="79.90" itemprop="price" /><meta content="EUR" itemprop="priceCurrency" /><span itemprop="seller">Leclerc</span>&nbsp;: <a itemprop="sameAs" href="http://www.leclercmobile.fr/telephones-mobiles/notre-gamme/mobiles/Zte_Open-C.aspx">ZTE OPEN C </a> </li>
 					<li itemprop="offers" itemscope itemtype="http://schema.org/Offer"><meta content="79.95" itemprop="price" /><meta content="EUR" itemprop="priceCurrency" /><span itemprop="seller">LDLC</span>&nbsp;: <a itemprop="sameAs" href="http://www.ldlc.com/fiche/PB00171571.html"> ZTE OPEN C</a> </li>
@@ -55,7 +55,7 @@
 				<p>N'oubliez pas de profiter de <a href="http://www.ztefrance.com/downloads/ZTE_Open_C_-_Offre_de_Remboursement.pdf">l'offre de remboursement</a></p>
 			</div>
 			<div id="reseaux">
-				<p> Retrouvez-nous sur les réseaux sociaux:</p>
+				<p> Retrouvez-nous sur les réseaux sociaux&nbsp;: </p>
 				<ul>
 					<li><img src="img/twitter.png" alt="twitter image"/> <a itemprop="sameAs" href="https://twitter.com/firefoxosfr">Twitter </a> et suivez <a href="https://twitter.com/search?q=%23firefoxosfr"> #FirefoxOSfr </a></li>
 					<li><img src="img/facebook.png" alt="fb image"/> <a itemprop="sameAs" href="https://www.facebook.com/firefoxosfr">Facebook </a></li>
@@ -65,7 +65,7 @@
 				</ul>
 			</div>
 			<div id="aide">
-				<p>Vous pouvez obtenir de l'aide à  différents endroits : </p>
+				<p>Vous pouvez obtenir de l'aide à  différents endroits&nbsp;: </p>
 				<ul>	
 					<li><a href="faq.php"> Foire aux questions </a></li>
 					<li><a href="http://forums.mozfr.org">http://forums.mozfr.org</a></li>
