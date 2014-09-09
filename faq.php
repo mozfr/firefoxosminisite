@@ -23,7 +23,7 @@
 			<li><a href="#mail" >Je peux avoir mes emails avec ça ?</a></li> 
 			<li><a href="#gps" >Ça peut remplacer mon GPS ?</a></li>
 			<li><a href="#migration" >Est-ce que je peux migrer mes données de mon ancien téléphone ? (Android/iOS)</a></li> 
-			<li><a href="#stockage" >Il n'y a pas beaucoup de place (il reste 2 Go je crois). Il y en a plus sur Android ou iPhone.</a></li>
+			<li><a href="#stockage" >Il n'y a pas beaucoup de place (1 Go). Il y en a plus sur Android ou iOS (iPhone).</a></li>
 			<li><a href="#appandroios" >Est ce que je peux installer des applications Android/iOS ?</a></li> 
 			<li><a href="#musique" >Est-ce que je peux mettre ma musique ?</a></li>
 			<li><a href="#photo" >Est-ce que je peux faire des photos ?</a></li>
@@ -77,7 +77,7 @@ PLusieurs applications permettent de se connecter à Whatsapp, telles que Connec
 					<dd> Oui, vous pouvez synchroniser vos contacts avec Facebook, Google ou les importer de la carte SIM/microSD.
 Vous pouvez synchroniser votre agenda avec Google ou via CalDAV.
 Le reste des données peut être copié sur le téléphone facilement (images, vidéos, musique).</dd>
-		    <dt id="stockage"> Il n'y a pas beaucoup de place (il reste 2 Go je crois). Il y en a plus sur Android ou iPhone.</dt> 
+		    <dt id="stockage"> Il n'y a pas beaucoup de place (1 Go). Il y en a plus sur Android ou iOS (iPhone).</dt> 
 		        <dd>Oui mais on peut ajouter une microSD pour stocker, les vidéos, photos. Et les applis prennent beaucoup moins de place. La taille maximale de la carte microSD qu'on peut insérer est de 32 Go. Et l'ajout de stockage en achetant une nouvelle carte microSD revient moins cher que d'acheter un stockage défini au départ que l'on ne peut pas changer, sans changer de téléphone.
 </dd>
 		    <dt id="appandroios"> Est ce que je peux installer des applications Android/iOS ?</dt> 
