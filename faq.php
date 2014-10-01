@@ -94,7 +94,7 @@ Le reste des données peut être copié sur le téléphone facilement (images, v
 		        <dd>Non, il n'y a pas besoin de compte pour utiliser le téléphone et installer des applications toutefois en ajouter un permet certaines choses comme noter et commenter les applications du Marketplace.</dd>
 		    <dt id="apps"> On trouve où les applications ?</dt>
 				<dd> Sur le Marketplace (<a href="https://marketplace.firefox.com/">
-https://marketplace.firefox.com/</a>)et sur certains sites qui proposent des applications sans passer par le marketplace.
+https://marketplace.firefox.com/</a>) et sur certains sites qui proposent des applications sans passer par le marketplace.
 On peut aussi faire une «&nbsp;recherche intelligente&nbsp;»&nbsp;: des applications, webapps ainsi que des sites web sont directement accessibles (pas besoin de télécharger et installer pour utiliser). De plus, quand on ouvre le lien, on arrive directement sur le sujet qu'on recherchait à l'intérieur de l'application.</dd>
 		    <dt id="sim"> Quelle taille de carte SIM ?</dt> 
 		        <dd>normale</dd>
@@ -126,10 +126,9 @@ On peut aussi faire une «&nbsp;recherche intelligente&nbsp;»&nbsp;: des applic
 		    <dt id="dev"> Ce ZTE Open C est-il suffisant pour pouvoir développer des applis, modifier la home, etc. ou il faut forcément acheter un Flame ?</dt> 
 				<dd>ZTE Open C c'est bien, Flame c'est mieux : <a href="https://wiki.mozilla.org/FirefoxOS/Flame#FAQs">https://wiki.mozilla.org/FirefoxOS/Flame#FAQs </a>
 ZTE fournit un logiciel qui permet de rooter son Open C et le mettre à jour avec une ROM développeur.</dd>
-		    <dt id="majhomemade"> Comment puis-je mettre à jour moi-même Firefox OS vers la dernière version ou vers une ROM développeur?</dt> 						<dd>Des infomations sont disponibles <a href="https://developer.mozilla.org/fr/Firefox_OS/Guide_Telephone_Developpeur/ZTE_OPEN_C" >ici</a>. ZTE fournit aussi un outil de root et de mise à jour vers une ROM développeur <a href="http://www.ztefrance.com/downloads/Pack_root_du_ZTE_Open_C.zip"> ici. </a></dd>
+		    <dt id="majhomemade"> Comment puis-je mettre à jour moi-même Firefox OS vers la dernière version ou vers une ROM développeur?</dt> 						<dd>Des informations sont disponibles <a href="https://developer.mozilla.org/fr/Firefox_OS/Guide_Telephone_Developpeur/ZTE_OPEN_C" >ici</a>. ZTE fournit aussi un outil de root et de mise à jour vers une ROM développeur <a href="http://www.ztefrance.com/downloads/Pack_root_du_ZTE_Open_C.zip"> ici. </a></dd>
 		    <dt id="4g"> Sait-on quand arrivera la prise en charge de la 4G par Firefox OS ? et quand des téléphones compatibles 4G apparaîtront ?</dt>
-				<dd>Non on ne sait pas
-LTE est intégré dans la version 1.4. cf. https://wiki.mozilla.org/B2G/Roadmap/Archive_-_Past_Releases_Complete_Features
+				<dd>Non, on ne sait pas. LTE est intégré dans la version 1.4. cf. https://wiki.mozilla.org/B2G/Roadmap/Archive_-_Past_Releases_Complete_Features
 Au MWC2014, Alcatel avait fait une annonce pour l'Alcatel OneTouch Fire S prévu pour décembre 2014 : http://www.phonearena.com/phones/Alcatel-OneTouch-Fire-S_id8451 </dd>
 		</dl>
 		</div>
