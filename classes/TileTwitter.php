@@ -23,7 +23,6 @@ class TileTwitter {
 	private $_accesstoken;
 	private $_accesstokensecret;
     private $_pathToConf;
-	// Informations lié au compte à suivre
 
     /**
      * Lit le fichier de configuration et s'authentifie auprès de Twitter
