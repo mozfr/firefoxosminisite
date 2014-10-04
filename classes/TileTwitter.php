@@ -47,8 +47,20 @@ class TileTwitter {
             $this->accesstokensecret);
         $tweets = $connection->get("statuses/user_timeline",array('count' => $numberOfTweet,'exclude_replies' => 1,
             'include_rts' => 0, 'user_id' => $idAccountToFollow, 'screen_name' => $screenNameToFollow));
+                /**
+                 * Ajouter ICI le code gérant le JSON obtenu + une gestion d'erreurs
+                 */
 
     }
-		
+	public function getFavoriteOf($idAccountToFollow,$numberOfTweet,$screenNameToFollow){
+        $connection = new TwitterOAuth($this->_consumerkey,$this->_consumersecret, $this->_accesstoken,
+            $this->accesstokensecret);
+        $tweets = $connection ->get("favorites/list",array('count' => $numberOfTweet, 'user_id' => $idAccountToFollow,
+            'screen_name' => $screenNameToFollow));
+                /**
+                 * Ajouter ici le code gérant le JSON obtenu + une gestion d'erreurs
+                 */
+
+    }
 }
 ?>
