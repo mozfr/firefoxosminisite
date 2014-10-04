@@ -8,10 +8,7 @@
 /*
  * TODO : 
  * -------
- * - Récupérer les 3 derniers tweets mis en favoris
- * - Récupérer les 3 derniers dont l'auteur est firefoxosfr
- * - Mettre en forme tout ceci sous la forme d'un bloc HTML ou d'un JSON
- * utilisable avec le template prévu
+ * Traitement des json obtenus et renvoie sous une forme utilisable
  */
 
 require_once("twitteroauth/twitteroauth.php"); // Path to twitteroauth library;
@@ -43,12 +40,38 @@ class TileTwitter {
             $_pathToConf = $pathToConf;
 		}
 	}
+
+    /**
+     * Recupere les x derniers tweets ecrit par un compte twitter en excluant RT et reponses.
+     * @param $idAccountToFollow Identifiant du compte a suivre
+     * @param $numberOfTweet Nombre de tweet a recuperer
+     * @param $screenNameToFollow Nom du compte a suivre
+     */
     public function getTweetWriteBy($idAccountToFollow,$numberOfTweet,$screenNameToFollow){
         $connection = new TwitterOAuth($this->_consumerkey,$this->_consumersecret, $this->_accesstoken,
             $this->accesstokensecret);
         $tweets = $connection->get("statuses/user_timeline",array('count' => $numberOfTweet,'exclude_replies' => 1,
             'include_rts' => 0, 'user_id' => $idAccountToFollow, 'screen_name' => $screenNameToFollow));
+        /**
+         * Ajouter ici du code pour traiter le json obtenu par la fonction
+         */
 
+    }
+
+    /**
+     * Recupere les x derniers tweets mis en favoris par un compte twitter
+     * @param $idAccountToFollow Identifiant du compte a suivre
+     * @param $numberOfTweet Nombre de tweet a recuperer
+     * @param $screenNameToFollow Nom du compte a suivre
+     */
+    public function getFavoriteOf($idAccountToFollow,$numberOfTweet,$screenNameToFollow){
+        $connection = new TwitterOAuth($this->_consumerkey,$this->_consumersecret, $this->_accesstoken,
+            $this->accesstokensecret);
+        $tweets = $connection->get("favorites/list",array('count' => $numberOfTweet,
+            'screen_name' => $screenNameToFollow, 'user_id' => $idAccountToFollow));
+        /**
+         * Ajouter ici du code pour traiter le json obtenu par la fonction
+         */
     }
 		
 }
