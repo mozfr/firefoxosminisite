@@ -28,16 +28,16 @@ class TileTwitter {
      * @param $_pathToConf Chemin vers le fichier de configuration .ini
      * @throws Exception Renvoie une exception si le fichier n'est pas trouvé ou n'est pas lisible
      */
-    public function TileTwitter($pathToConf){
+    public function __construct($pathToConf){
         if (!(file_exists($pathToConf) && is_readable($pathToConf))){
 			throw new Exception("TileTwitter.php : config file not found");
 		}else{
 			$config = parse_ini_file($pathToConf, false);
 
-			$_consumerkey = $config['consumerkey'];
-			$_consumersecret = $config['consumersecret'];
-			$_accesstoken = $config['accesstoken'];
-			$_accesstokensecret = $config['accesstokensecret'];
+			$this->_consumerkey = $config['consumerkey'];
+			$this->_consumersecret = $config['consumersecret'];
+			$this->_accesstoken = $config['accesstoken'];
+			$this->_accesstokensecret = $config['accesstokensecret'];
 		}
 	}
     public function getTweetWriteBy($idAccountToFollow,$numberOfTweet,$screenNameToFollow){
@@ -45,14 +45,13 @@ class TileTwitter {
             $this->_accesstokensecret);
         $tweets = $connection->get("statuses/user_timeline",array('count' => $numberOfTweet,'exclude_replies' => 1,
             'include_rts' => 0, 'user_id' => $idAccountToFollow, 'screen_name' => $screenNameToFollow));
-        // Bout de code à des fins de débugging
-        print("Variable = ".$this->_consumersecret. "\n");
-        if(!empty($tweets)) {
-            foreach ($tweets as $tweet) {
-                echo print_r($tweets, true);
-            }
-        }
-        // Fin du bout de code de débugging
+        $tweets = json_encode($tweets);
+        // DEBUG : Affiche le json obtenu
+        echo '<pre>';
+        $objJson = json_decode($tweets, TRUE); // TRUE me donne un array associatif, FALSE me donne un objet
+        print_r ($objJson);
+        echo '</pre>';
+        // DEBUG : Fin du débug
     }
 	public function getFavoriteOf($idAccountToFollow,$numberOfTweet,$screenNameToFollow){
         $connection = new TwitterOAuth($this->_consumerkey,$this->_consumersecret, $this->_accesstoken,
