@@ -14,7 +14,7 @@
  * utilisable avec le template prévu
  */
 
-require_once("twitteroauth/twitteroauth.php"); // Path to twitteroauth library;
+require_once("../lib/twitteroauth/twitteroauth/twitteroauth.php"); // Path to twitteroauth library;
 
 class TileTwitter {
 	// Donnée d'authentification à l'API Twitter
@@ -22,7 +22,6 @@ class TileTwitter {
 	private $_consumersecret;
 	private $_accesstoken;
 	private $_accesstokensecret;
-    private $_pathToConf;
 
     /**
      * Lit le fichier de configuration et s'authentifie auprès de Twitter
@@ -33,28 +32,31 @@ class TileTwitter {
         if (!(file_exists($pathToConf) && is_readable($pathToConf))){
 			throw new Exception("TileTwitter.php : config file not found");
 		}else{
-			$config = parse_ini_file($pathToConf, true);
+			$config = parse_ini_file($pathToConf, false);
 
 			$_consumerkey = $config['consumerkey'];
 			$_consumersecret = $config['consumersecret'];
 			$_accesstoken = $config['accesstoken'];
 			$_accesstokensecret = $config['accesstokensecret'];
-            $_pathToConf = $pathToConf;
 		}
 	}
     public function getTweetWriteBy($idAccountToFollow,$numberOfTweet,$screenNameToFollow){
         $connection = new TwitterOAuth($this->_consumerkey,$this->_consumersecret, $this->_accesstoken,
-            $this->accesstokensecret);
+            $this->_accesstokensecret);
         $tweets = $connection->get("statuses/user_timeline",array('count' => $numberOfTweet,'exclude_replies' => 1,
             'include_rts' => 0, 'user_id' => $idAccountToFollow, 'screen_name' => $screenNameToFollow));
-                /**
-                 * Ajouter ICI le code gérant le JSON obtenu + une gestion d'erreurs
-                 */
-
+        // Bout de code à des fins de débugging
+        print("Variable = ".$this->_consumersecret. "\n");
+        if(!empty($tweets)) {
+            foreach ($tweets as $tweet) {
+                echo print_r($tweets, true);
+            }
+        }
+        // Fin du bout de code de débugging
     }
 	public function getFavoriteOf($idAccountToFollow,$numberOfTweet,$screenNameToFollow){
         $connection = new TwitterOAuth($this->_consumerkey,$this->_consumersecret, $this->_accesstoken,
-            $this->accesstokensecret);
+            $this->_accesstokensecret);
         $tweets = $connection ->get("favorites/list",array('count' => $numberOfTweet, 'user_id' => $idAccountToFollow,
             'screen_name' => $screenNameToFollow));
                 /**
