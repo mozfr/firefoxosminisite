@@ -37,7 +37,7 @@
 			</div>
 			<div id="futur">
 				<h1>Façonnez le futur</h1>
-				<p>Nous sommes ici pour changer les choses, pas pour gagner de l'argent. C'est pour cela que nos smartphones sont soutenus par une grande communauté internationnale qui innove pour vous, avec vos intérêts et besoins en tête. En choissisant Firefox OS, vous contribuez à un meilleur avenir pour le Web et les utilisateurs du monde entier.</p>
+				<p>Nous sommes ici pour changer les choses, pas pour gagner de l'argent. C'est pour cela que nos smartphones sont soutenus par une grande communauté internationale qui innove pour vous, avec vos intérêts et besoins en tête. En choisissant Firefox OS, vous contribuez à un meilleur avenir pour le Web et les utilisateurs du monde entier.</p>
 				<img itemprop="image" src="http://www.mozfr.org/custom/img/fox-front.png" alt="fox" style="max-width: 100%;">
 				<a itemprop="sameAs" href="https://www.mozilla.org/fr/firefox/os/" style="text-align:center; margin-left:20%;"><span id="ffos-learn-more" class="button" style="display: inline-block; margin-top:7%;
  margin-left:0%; text-align:center;">En savoir plus »</span></a>
