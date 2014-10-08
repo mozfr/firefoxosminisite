@@ -3,4 +3,4 @@ firefoxosminisite
 
 Mini-site pour le lancement de Firefox OS en France
 
-TEST 2
+TEST 3
