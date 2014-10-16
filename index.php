@@ -46,7 +46,7 @@
 		<div id="footer">
 			<div id="achat">
 				<p>Découvrez <a href="https://www.mozilla.org/fr/firefox/os/devices/" title="Mozilla : Firefox OS - Appareils et disponibilité — Mozilla">où acheter un smartphone avec Firefox OS</a>.</p>
-				<p>N'oubliez pas de profiter de <a href="http://blog.mozfr.org/post/2014/09/ZTE-Open-C-sous-Firefox-OS-%3A-offre-de-remboursement-prolongee" title="ZTE Open C sous Firefox OS : offre de remboursement prolongée – Communauté Mozilla francophone">l'offre de remboursement</a> de 10&nbsp;euros de <a href="http://www.ztefrance.com/firefox-open-c.php" title="ZTE France - Smartphone Open C avec Firefox OS">ZTE France</a>.</p>
+				<p>N'oubliez pas de profiter de <a href="http://blog.mozfr.org/post/2014/10/Firefox-OS-un-vrai-smartphone-a-60-euros" title="Firefox OS : un vrai smartphone à 60 € ! - Communauté Mozilla francophone">l'offre de remboursement</a> de 20&nbsp;euros de <a href="http://www.ztefrance.com/firefox-open-c.php" title="ZTE France - Smartphone Open C avec Firefox OS">ZTE France</a>.</p>
 			</div>
 			<div id="reseaux">
 				<p>Retrouvez-nous sur les réseaux sociaux&nbsp;:</p>
