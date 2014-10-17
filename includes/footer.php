@@ -51,3 +51,6 @@
         <script src="media/js/home-2015-min.js?build=28aaabb"></script>
 
         <script src="media/js/home-2015-open-standard-min.js?build=28aaabb"></script>
+<!-- Script lié à l'animation de la tuile Twitter -->
+<!-- Nécessite Jquery -->
+<script src="media/js/jquery.jcarousel.min.js" type="text/javascript"></script>

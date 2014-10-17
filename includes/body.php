@@ -7,7 +7,7 @@
 <section class="promo-grid-wrapper">
     <div class="promo-grid-inner">
         <ul class="promo-grid  reveal">
-            <li id="promo-1" class="item promo-large-portrait open-standard" tabindex="0">
+            <ul id="promo-1" class="item promo-large-portrait open-standard" tabindex="0">
                 <h2 class="primary go"><img src="zteopenc-redim.png"> </h2>
                 <a class="panel-link" href="https://openstandard.mozilla.org/">
                     <div class="secondary">
@@ -21,7 +21,7 @@
                     <h2>Privacy => do not track </h2>
                 </a>
             </li>
-            </li>
+            </ul>
             <li id="promo-5" class="item promo-small-landscape firefox-download" tabindex="0">
                 <div class="primary">
                     <h2 class="go">AIDE</h2>
@@ -43,11 +43,16 @@
                 </a>
             </li>
             </li>
-            <li id="promo-8" class="item promo-small-landscape appmaker">
+            <!-- <li id="promo-8" class="item promo-small-landscape appmaker">
                 <a class="panel-link" href="https://webmaker.org/appmaker">
-                    <h2>Build an app <br>in seconds appmaker</h2>
+                    <h2> Twitter </h2>
                 </a>
-            </li>
+            </li> -->
+            <?php
+            require("classes/TileTwitter.php");
+            $tuileTwitter = new TileTwitter("config.ini");
+            $tuileTwitter->getTweetWriteBy(443198901, 3, "Maton_Anthony");
+            ?>
             <li id="promo-9" class="item promo-small-landscape volunteer">
                 <a class="panel-link" href="https://www-demo5.allizom.org/en-US/contribute/">
                     <h2>lien vers RS ? <!-- lien vers les réseaux sociaux--> </h2>
