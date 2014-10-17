@@ -1,4 +1,7 @@
 /*****************************************************
  * Import de fichiers CSS
  *****************************************************/
-@import url(http://mozfr.org/mozfrtab/tabzilla.css);
+@import url("http://mozfr.org/mozfrtab/tabzilla.css");
+@import "home-2015-min.css";
+@import "home-2015-open-standard-min.css";
+@import "responsive-min.css";
