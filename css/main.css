@@ -1,7 +1,136 @@
 /*****************************************************
  * Import de fichiers CSS
  *****************************************************/
-@import url("http://mozfr.org/mozfrtab/tabzilla.css");
-@import "home-2015-min.css";
-@import "home-2015-open-standard-min.css";
-@import "responsive-min.css";
+@import url(/mozfrtab/tabzilla.css);
+
+/* Mozilla.org overrides */
+
+#masthead,
+.main-header {
+  background-color: #0095DD;
+}
+
+.main-header h1 {
+  margin: 30px auto 15px;
+}
+
+.main-header h2 {
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 25px;
+}
+
+.main-header h1 img {
+  height: 70px;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.promo-grid-wrapper {
+  background:  url('../media/img/background.jpg') repeat;
+}
+
+.promo-grid {
+  height: 980px;
+}
+
+.promo-small-landscape.firefox-download img {
+  top: 0;
+  right: 0;
+}
+
+.promo-small-landscape.firefox-download h2.go:after {
+  content: "";
+}
+
+#promo-1 h2 {
+  padding-top: 40px;
+}
+
+#promo-1 img {
+  padding-top: 60px;
+}
+
+#promo-10 h2 {
+  padding: 0px 20px 0px;
+  margin-top: 0px;
+}
+
+#promo-10 img {
+  padding-top: 0px;
+}
+
+
+@media only screen and  (min-width: 1300px) {
+
+  .promo-grid #promo-5 {
+    left: 640px;
+  }
+
+  .promo-grid #promo-8 {
+    top: 480px;
+    left: 320px;
+  }
+
+  .promo-grid #promo-10 {
+    top: 0px;
+    left: 960px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
+  .promo-grid {
+    height: 980px;
+  }
+
+  .promo-grid #promo-6 {
+    top: 160px;
+  }
+
+  .promo-grid #promo-8,
+  .promo-grid #promo-9,
+  .promo-grid #promo-10 {
+    top: 480px;
+  }
+
+  .promo-grid #promo-11 {
+    top: 640px;
+  }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 979px) {
+
+  .promo-grid {
+    height: 1450px;
+  }
+
+  .promo-grid #promo-8 {
+    top: 320px;
+  }
+
+  .promo-grid #promo-9 {
+    top: 480px;
+  }
+
+  .promo-grid #promo-11 {
+    top: 640px;
+  }
+}
+
+@media only screen and (max-width: 659px) {
+  .main-header h1 img {
+    height: 58px;
+  }
+  .promo-grid {
+    height: 2600px;
+  }
+}
