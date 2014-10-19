@@ -49,9 +49,8 @@
                     </span>
                   </a>
                 </li>
-                </ul>
-              </div>
-              <a class="fxos-link" href="https://www.mozilla.org/fr/firefox/desktop/">En savoir plus</a>
+              </ul>
+            </div>
           </div>
         </li>
         <li id="promo-6" class="item promo-large-landscape webmaker" tabindex="0" data-name="Teach the Web">
@@ -63,17 +62,17 @@
             </div>
           </a>
         </li>
-        <li id="promo-8" class="item promo-small-landscape appmaker" data-name="Build an app in seconds">
-          <a class="panel-link" rel="external" href="https://webmaker.org/appmaker">
-            <h2>Facebook</h2>
+        <li id="promo-8" class="item promo-small-landscape appmaker" data-name="Dernier statut Facebook">
+          <a class="panel-link" rel="external" href="https://www.facebook.com/firefoxosfr">
+            <p><?=$fb_status?></p>
           </a>
         </li>
-        <li id="promo-9" class="item promo-small-landscape volunteer" data-name="Volunteer with Mozilla">
+        <li id="promo-9" class="item promo-small-landscape volunteer" data-name="Firefox OS pour les développeurs">
           <a class="panel-link" href="https://developer.mozilla.org/fr/Firefox_OS">
             <h2>Firefox&nbsp;OS pour les développeurs</h2>
           </a>
         </li>
-        <li id="promo-10" class="item promo-large-portrait firefox-desktop" tabindex="0" data-name="Try the best Firefox yet">
+        <li id="promo-10" class="item promo-large-portrait firefox-desktop" tabindex="0" data-name="La parole est aux mozilliens">
         <img class="primary go" src="media/img/foxprimez-vous.png" alt="Le renard s’exprime publiquement">
           <h2 class="primary go">Foxprimez-vous</h2>
           <a class="panel-link" href="http://www.mozfr.org">
@@ -84,13 +83,7 @@
           </a>
         </li>
         <li id="promo-11" class="item promo-large-landscape support" tabindex="0" data-name="Help Mozilla users">
-          <h2 class="primary go">Chaîne Youtube</h2>
-          <a class="panel-link" rel="external" href="https://support.mozilla.org/get-involved">
-            <div class="secondary">
-              <h3>Lorem ipsum.</h3>
-              <p class="more">Lorem ipsum</p>
-            </div>
-          </a>
+          <div id="player"></div>
         </li>
       </ul>
     </div>

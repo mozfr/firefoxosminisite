@@ -3,13 +3,14 @@ use Facebook\FacebookSession;
 use Facebook\FacebookRequest;
 
 class TileFacebook {
+    private $_fb_pageID;
     private $_fb_appID;
     private $_fb_appsecret;
 
     /**
-    * Lit le fichier de configuration et s'authentifie auprès de Twitter
-    * @param $_pathToConf Chemin vers le fichier de configuration .ini
-    * @throws Exception Renvoie une exception si le fichier n'est pas trouvé ou n'est pas lisible
+    * Reads config file
+    * @param $_pathToConf Path to config.ini file
+    * @throws Exception Triggers an Exception when the file can't be read or can't be found.
     */
     public function __construct($pathToConf) {
         if (! file_exists($pathToConf) || ! is_readable($pathToConf)) {
@@ -17,11 +18,16 @@ class TileFacebook {
         } else {
             $config = parse_ini_file($pathToConf, false);
 
-            $this->_fb_appID       = $config['fb_appID'];
-            $this->_fb_appsecret   = $config['fb_appsecret'];
+            $this->_fb_pageID    = $config['fb_pageID']; 
+            $this->_fb_appID     = $config['fb_appID'];
+            $this->_fb_appsecret = $config['fb_appsecret'];
         }
     }
 
+    /**
+    * Returns the latest status posted by the FB account/page identified by credentials found in config.ini
+    * @return String containing the latest status
+    */
     public function getLatestStatus() {
         FacebookSession::setDefaultApplication($this->_fb_appID, $this->_fb_appsecret);
 
@@ -34,21 +40,23 @@ class TileFacebook {
         $request = new FacebookRequest(
             $session,
             'GET',
-            '/571893379557863/posts?limit=10'
+            '/' . $this->_fb_pageID . '/posts?limit=10'
         );
 
         $response = $request->execute();
         $graphObject = $response->getGraphObject()->asArray();
 
+        // Keep parsing graphObject activity until an actual post is found.
+        // Currently, activity includes page comments, and they don't have a 'message' field.
         $i = 0;
         while (empty($fb_status) || $i >= 9) {
-            try {
-                $fb_status = $graphObject['data'][$i]->message;
-            } catch (Exception $e) {}
+            if (isset($graphObject['data'][$i]->message)) {
+                try {
+                    $fb_status = $graphObject['data'][$i]->message;
+                } catch (Exception $e) {}
+            }
             $i++;
         }
         return $fb_status;
     }
 }
-
-?>

@@ -60,6 +60,17 @@
   padding-top: 60px;
 }
 
+#promo-8 {
+  background: url(../media/img/fb.png) no-repeat 20px 20px,
+              #5E6BA1;
+}
+
+#promo-8 p {
+  padding: 5px 5px 0 70px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
 #promo-9 {
   background: url(../media/img/logo-mdn.svg) no-repeat top center,
               url(../media/img/blueprint.png) repeat,

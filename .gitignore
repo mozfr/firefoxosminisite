@@ -1,1 +1,4 @@
-config/
+config/config.ini
+vendor/
+composer.lock
+composer.phar

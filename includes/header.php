@@ -26,6 +26,8 @@
   <link rel="stylesheet" media="screen,projection,tv" href="css/main.css">
   <link rel="shortcut icon" href="https://mozorg.cdn.mozilla.net/media/img/favicon.ico">
   <script src="media/js/site-min.js"></script>
+  <!-- Async player loading -->
+  <script src="media/js/player.js"></script>
 </head>
 
   <body id="home" class="html-ltr lang-fr">
