@@ -36,11 +36,11 @@
 }
 
 .promo-grid-wrapper {
-  background:  url('../media/img/background.jpg') repeat;
+  background:  url(../media/img/background.jpg) repeat;
 }
 
 .promo-grid {
-  height: 980px;
+  height: 820px;
 }
 
 .promo-small-landscape.firefox-download img {
@@ -60,15 +60,23 @@
   padding-top: 60px;
 }
 
+#promo-9 {
+  background: url(../media/img/logo-mdn.svg) no-repeat top center,
+              url(../media/img/blueprint.png) repeat,
+              #00539F;
+  background-position: 15px 15px, 0 0;
+  background-size: 110px 100px, auto;
+}
+
 #promo-10 h2 {
   padding: 0px 20px 0px;
   margin-top: 0px;
+  font-size: 35px;
 }
 
 #promo-10 img {
   padding-top: 0px;
 }
-
 
 @media only screen and  (min-width: 1300px) {
 
@@ -88,6 +96,7 @@
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1300px) {
+
   .promo-grid {
     height: 980px;
   }
@@ -127,6 +136,7 @@
 }
 
 @media only screen and (max-width: 659px) {
+
   .main-header h1 img {
     height: 58px;
   }
