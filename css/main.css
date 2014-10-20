@@ -103,6 +103,9 @@
   margin-right: auto;
   display: block;
 }
+.promo-grid #promo-12 {
+  left: 320px;
+}
 
 @media only screen and  (min-width: 1300px) {
 
@@ -118,6 +121,9 @@
   .promo-grid #promo-10 {
     top: 0px;
     left: 960px;
+  }
+  .promo-grid #promo-12 {
+    left: 0;
   }
 }
 
