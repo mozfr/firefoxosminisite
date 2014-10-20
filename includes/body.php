@@ -9,13 +9,13 @@
   <section class="promo-grid-wrapper">
     <div class="promo-grid-inner">
       <ul class="promo-grid  stagger reveal">
-        <li id="promo-1" class="item promo-large-portrait mission" data-name="Discover what drives our mission" tabindex="0">
-          <h2 class="primary go">L’appli du jour</h2>
+        <li id="promo-1" class="item promo-large-portrait mission" data-name="Acheter un téléphone" tabindex="0">
+          <h2 class="primary go">Acheter un téléphone</h2>
           <img class="primary go" src="media/img/openc.png" alt="Téléphone ZTE Open sous Firefox OS">
-          <a class="panel-link" href="https://www.mozilla.org/fr/about/manifesto/">
+          <a class="panel-link" href="https://www.mozilla.org/fr/firefox/os/devices/">
             <div class="secondary">
-              <h3>Chaque jour, découvrez une nouvelle application.</h3>
-              <p class="more">Découvrez l’application</p>
+              <h3>Découvrez les différentes offres de téléphones Firefox&nbsp;OS.</h3>
+              <p class="more">J’achète le mien</p>
             </div>
           </a>
         </li>
@@ -84,6 +84,16 @@
         </li>
         <li id="promo-11" class="item promo-large-landscape support" tabindex="0" data-name="Help Mozilla users">
           <div id="player"></div>
+        </li>
+        <li id="promo-12" class="item promo-large-landscape apps" data-name="Application du jour" tabindex="0">
+          <h2 class="primary go">L’appli du jour</h2>
+          <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
+          <a class="panel-link" href="https://www.mozfr.org">
+            <div class="secondary">
+              <h3>Chaque jour, découvrez une nouvelle application.</h3>
+              <p class="more">Découvrez l’application</p>
+            </div>
+          </a>
         </li>
       </ul>
     </div>

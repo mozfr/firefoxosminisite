@@ -40,7 +40,7 @@
 }
 
 .promo-grid {
-  height: 820px;
+  height: 960px;
 }
 
 .promo-small-landscape.firefox-download img {
@@ -53,11 +53,11 @@
 }
 
 #promo-1 h2 {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #promo-1 img {
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 #promo-8 {
@@ -89,6 +89,21 @@
   padding-top: 0px;
 }
 
+#promo-12 {
+  background: #E66000;
+}
+
+#promo-12 h2 {
+  padding-top: 20px;
+}
+
+#promo-12 img {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 @media only screen and  (min-width: 1300px) {
 
   .promo-grid #promo-5 {
@@ -109,7 +124,7 @@
 @media only screen and (min-width: 980px) and (max-width: 1300px) {
 
   .promo-grid {
-    height: 980px;
+    height: 1300px;
   }
 
   .promo-grid #promo-6 {
@@ -125,12 +140,16 @@
   .promo-grid #promo-11 {
     top: 640px;
   }
+
+  .promo-grid #promo-12 {
+    top: 960px;
+  }
 }
 
 @media only screen and (min-width: 660px) and (max-width: 979px) {
 
   .promo-grid {
-    height: 1450px;
+    height: 1600px;
   }
 
   .promo-grid #promo-8 {
@@ -144,6 +163,11 @@
   .promo-grid #promo-11 {
     top: 640px;
   }
+
+  .promo-grid #promo-12 {
+    top: 1120px;
+    left: 320px;
+  }
 }
 
 @media only screen and (max-width: 659px) {
@@ -151,7 +175,12 @@
   .main-header h1 img {
     height: 58px;
   }
+
   .promo-grid {
-    height: 2600px;
+    height: 3040px;
+  }
+
+  .promo-grid #promo-12 {
+    display: block;
   }
 }

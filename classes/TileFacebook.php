@@ -47,10 +47,11 @@ class TileFacebook {
         $graphObject = $response->getGraphObject()->asArray();
 
         // Keep parsing graphObject activity until an actual post is found.
-        // Currently, activity includes page comments, and they don't have a 'message' field.
+        // Currently, activity includes page comments, and they don't have a 'message' field,
+        // so we want to skip them.
         $i = 0;
         $fb = [];
-        while (empty($fb) || $i <= 9) {
+        while (empty($fb) && $i <= 9) {
             if (isset($graphObject['data'][$i]->message)) {
                 try {
                     $fb['status'] = $graphObject['data'][$i]->message;
