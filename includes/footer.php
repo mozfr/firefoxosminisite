@@ -5,7 +5,7 @@
     </div>
     <div class="col col-2">
       <ul class="links-join">
-        <li><a href="http://www.mozfr.org/contact">Contactez-nous</a></li>
+        <li><a href="http://www.mozfr.org/liste">Contactez-nous</a></li>
         <li class="clear"><a href="https://github.com/mozfr/firefoxosminisite">Contribuer à cette page</a></li>
       </ul>
       <ul class="links-legal">
