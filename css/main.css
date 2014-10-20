@@ -52,6 +52,10 @@
   content: "";
 }
 
+#promo-1 {
+  background: #E66000;
+}
+
 #promo-1 h2 {
   padding-top: 20px;
 }
@@ -90,7 +94,7 @@
 }
 
 #promo-12 {
-  background: #E66000;
+  background: #0C99D5;
 }
 
 #promo-12 h2 {
@@ -188,5 +192,6 @@
 
   .promo-grid #promo-12 {
     display: block;
+    left: 0px;
   }
 }
