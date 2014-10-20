@@ -27,7 +27,6 @@ function onYouTubePlayerAPIReady() {
       'onReady': onPlayerReady,
     }
   });
-  player.setOption("captions", "track", {"languageCode": "fr"}); 
 }
 
 function onPlayerReady(event) {

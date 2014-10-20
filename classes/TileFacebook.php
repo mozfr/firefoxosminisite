@@ -26,7 +26,7 @@ class TileFacebook {
 
     /**
     * Returns the latest status posted by the FB account/page identified by credentials found in config.ini
-    * @return String containing the latest status
+    * @return Array containing the latest status and its ID
     */
     public function getLatestStatus() {
         FacebookSession::setDefaultApplication($this->_fb_appID, $this->_fb_appsecret);
@@ -49,14 +49,19 @@ class TileFacebook {
         // Keep parsing graphObject activity until an actual post is found.
         // Currently, activity includes page comments, and they don't have a 'message' field.
         $i = 0;
-        while (empty($fb_status) || $i >= 9) {
+        $fb = [];
+        while (empty($fb) || $i <= 9) {
             if (isset($graphObject['data'][$i]->message)) {
                 try {
-                    $fb_status = $graphObject['data'][$i]->message;
-                } catch (Exception $e) {}
+                    $fb['status'] = $graphObject['data'][$i]->message;
+                    $id           = $graphObject['data'][$i]->id;
+                    $id = explode('_', $id);
+                    $fb['id'] = $id[1];
+               } catch(Exception $e) {}
             }
             $i++;
         }
-        return $fb_status;
+
+        return $fb;
     }
 }

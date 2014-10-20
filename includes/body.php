@@ -63,8 +63,8 @@
           </a>
         </li>
         <li id="promo-8" class="item promo-small-landscape appmaker" data-name="Dernier statut Facebook">
-          <a class="panel-link" rel="external" href="https://www.facebook.com/firefoxosfr">
-            <p><?=$fb_status?></p>
+          <a class="panel-link" rel="external" href="https://www.facebook.com/firefoxosfr/posts/<?=$fb_res['id']?>">
+            <p><?=$fb_res['status']?></p>
           </a>
         </li>
         <li id="promo-9" class="item promo-small-landscape volunteer" data-name="Firefox OS pour les développeurs">

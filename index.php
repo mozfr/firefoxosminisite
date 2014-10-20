@@ -3,8 +3,9 @@
 require_once 'vendor/autoload.php';
 require_once("classes/TileFacebook.php");
 
+$fb_res = [];
 $fb = new TileFacebook('config/config.ini');
-$fb_status = $fb->getLatestStatus();
+$fb_res = $fb->getLatestStatus();
 
 
 
