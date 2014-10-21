@@ -1,6 +1,6 @@
 <?php
-require_once("TileTwitter.php");
+require_once('./TileTwitter.php');
 
-$favorite = new TileTwitter("../config.ini");
-$favorite->getTweetWriteBy(443198901,3,"Maton_Anthony");
+$favorite = new TileTwitter('../config/config.ini');
+$favorite->getTweetWriteBy(2228736763, 3, 'firefoxosfr');
 ?>

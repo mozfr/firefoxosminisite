@@ -1,7 +1,12 @@
 <main role="main">
   <header class="main-header">
     <div class="container">
-      <h1><img class="js" src="media/img/firefox-os-wordmark.png" data-processed="true" data-src="media/img/firefox-os-wordmark.png" data-high-res="true" alt="Mozilla" height="70" width="313"><noscript><img src="media/img/firefox-os-wordmark.png" width="313" alt="Mozilla" height="70"></noscript></h1>
+      <h1>
+        <img class="js" src="media/img/firefox-os-wordmark.png" data-processed="true" data-src="media/img/firefox-os-wordmark.png" data-high-res="true" alt="Firefox OS" height="70" width="313">
+        <noscript>
+          <img src="media/img/firefox-os-wordmark.png" width="313" alt="Firefox OS" height="70">
+        </noscript>
+      </h1>
       <h2>Regardez l’avenir</h2>
     </div>
   </header>
@@ -9,7 +14,7 @@
   <section class="promo-grid-wrapper">
     <div class="promo-grid-inner">
       <ul class="promo-grid  stagger reveal">
-        <li id="promo-1" class="item promo-large-portrait mission" data-name="Acheter un téléphone" tabindex="0">
+        <li id="promo-1" class="item promo-large-portrait mission" data-name="Application du jour" tabindex="0">
           <h2 class="primary go">L’appli du jour</h2>
           <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
           <a class="panel-link" href="https://www.mozfr.org">
@@ -27,9 +32,9 @@
               <span class="ellipsis" title="Lorem ipsum dolor sit amet http://t.co/zk9xZQmIfT via @firefoxosfr #hashtag"></span>
             </p>
             <div class="twt-actions">
-              <a href="https://twitter.com/firefoxosfr" class="twt-account" title="Firefox" data-name="Mozilla Tweets Account"></a>
-              <a href="https://twitter.com/intent/tweet?in_reply_to=522877189633499136" class="twt-reply" title="Reply" data-name="Mozilla Tweets Reply">Répondre</a>
-              <a href="https://twitter.com/intent/retweet?tweet_id=522877189633499136" class="twt-rt" title="Retweet" data-name="Mozilla Tweets Retweet">Retweeter</a>
+              <a href="https://twitter.com/firefoxosfr" class="twt-account" title="Firefox OS FR" data-name="Compte Twitter de Firefox OS FR"></a>
+              <a href="https://twitter.com/intent/tweet?in_reply_to=522877189633499136" class="twt-reply" title="Répondre" data-name="Répondre au tweet de Firefox OS FR">Répondre</a>
+              <a href="https://twitter.com/intent/retweet?tweet_id=522877189633499136" class="twt-rt" title="Retweeter" data-name="Retweeter le tweet de Firefox OS FR">Retweeter</a>
             </div>
           </div>
         </li>
@@ -53,9 +58,9 @@
             </div>
           </div>
         </li>
-        <li id="promo-6" class="item promo-large-landscape webmaker" tabindex="0" data-name="Teach the Web">
+        <li id="promo-6" class="item promo-large-landscape webmaker" tabindex="0" data-name="Mamie fox">
           <h2 class="primary go">Mamie fox</h2>
-          <a class="panel-link" rel="external" href="https://webmaker.org/">
+          <a class="panel-link" rel="external" href="http://mozfr.org/">
             <div class="secondary">
               <h3>Lorem ipsum.</h3>
               <p class="more">Lorem ipsum</p>
@@ -82,10 +87,10 @@
             </div>
           </a>
         </li>
-        <li id="promo-11" class="item promo-large-landscape support" tabindex="0" data-name="Help Mozilla users">
+        <li id="promo-11" class="item promo-large-landscape support" tabindex="0" data-name="Vidéo Youtube">
           <div id="player"></div>
         </li>
-        <li id="promo-12" class="item promo-large-landscape apps" data-name="Application du jour" tabindex="0">
+        <li id="promo-12" class="item promo-large-landscape apps" data-name="Où acheter un téléphone" tabindex="0">
           <h2 class="primary go">Où acheter un téléphone&nbsp;?</h2>
           <img class="primary go" src="media/img/openc.png" alt="Téléphone ZTE Open sous Firefox OS">
           <a class="panel-link" href="https://www.mozilla.org/fr/firefox/os/devices/">
