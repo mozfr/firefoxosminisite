@@ -28,13 +28,13 @@
         <li id="promo-2" class="item promo-small-landscape twt">
           <div class="twt-container">
             <p class="twt-text" id="twt-body">
-              Lorem ipsum dolor sit amet <a href="http://t.co/zk9xZQmIfT" title="http://mzl.la/1wN8xou">mzl.la/1wN8xou</a> via <a href="https://twitter.com/firefoxosfr" class="mention">@firefoxosfr</a> <a href="https://twitter.com/search?q=%23hashtag&amp;src=hash" class="hash">#hashtag</a>
-              <span class="ellipsis" title="Lorem ipsum dolor sit amet http://t.co/zk9xZQmIfT via @firefoxosfr #hashtag"></span>
+              <?=$tweet_text?>
+              <span class="ellipsis" title="<?=$tweet_text?>"></span>
             </p>
             <div class="twt-actions">
-              <a href="https://twitter.com/firefoxosfr" class="twt-account" title="Firefox OS FR" data-name="Compte Twitter de Firefox OS FR"></a>
-              <a href="https://twitter.com/intent/tweet?in_reply_to=522877189633499136" class="twt-reply" title="Répondre" data-name="Répondre au tweet de Firefox OS FR">Répondre</a>
-              <a href="https://twitter.com/intent/retweet?tweet_id=522877189633499136" class="twt-rt" title="Retweeter" data-name="Retweeter le tweet de Firefox OS FR">Retweeter</a>
+              <a href="https://twitter.com/<?=$tweet[$tweet_id]['screen_name']?>" class="twt-account" title="<?=$tweet[$tweet_id]['name']?>" data-name="Compte Twitter de <?=$tweet[$tweet_id]['name']?>"></a>
+              <a href="https://twitter.com/intent/tweet?in_reply_to=<?=$tweet_id?>" class="twt-reply" title="Répondre" data-name="Répondre au tweet de <?=$tweet[$tweet_id]['name']?>">Répondre</a>
+              <a href="https://twitter.com/intent/retweet?tweet_id=<?=$tweet_id?>" class="twt-rt" title="Retweeter" data-name="Retweeter le tweet de <?=$tweet[$tweet_id]['name']?>">Retweeter</a>
             </div>
           </div>
         </li>
@@ -59,18 +59,24 @@
           </div>
         </li>
         <li id="promo-6" class="item promo-large-landscape webmaker" tabindex="0" data-name="Mamie fox">
-          <h2 class="primary go">Mamie fox</h2>
-          <a class="panel-link" rel="external" href="http://mozfr.org/">
+          <h2 class="primary go">Mamie fox (bientôt)</h2>
+          <!--<a class="panel-link" rel="external" href="http://mozfr.org/">-->
             <div class="secondary">
-              <h3>Lorem ipsum.</h3>
-              <p class="more">Lorem ipsum</p>
+              <h3>Mamie fox débarque bientôt !</h3>
+              <!--<p class="more">Lorem ipsum</p>-->
             </div>
-          </a>
+          <!--</a>-->
         </li>
-        <li id="promo-8" class="item promo-small-landscape appmaker" data-name="Dernier statut Facebook">
-          <a class="panel-link" rel="external" href="https://www.facebook.com/firefoxosfr/posts/<?=$fb_res['id']?>">
-            <p><?=$fb_res['status']?></p>
-          </a>
+        <li id="promo-8" class="item promo-small-landscape appmaker twt" data-name="Dernier statut Facebook">
+          <div class="twt-container">
+            <p class="twt-text" id="twt-body">
+              <?=$fb_res['status']?>
+              <span class="ellipsis" title="<?=$fb_res['status']?>"></span>
+            </p>
+            <div class="twt-actions">
+              <a href="https://www.facebook.com/firefoxosfr/posts/<?=$fb_res['id']?>" class="twt-account" title="Lien vers le statut Facebook" data-name="Lien vers le statut Facebook"></a>
+            </div>
+          </div>
         </li>
         <li id="promo-9" class="item promo-small-landscape volunteer" data-name="Firefox OS pour les développeurs">
           <a class="panel-link" href="https://developer.mozilla.org/fr/Firefox_OS">

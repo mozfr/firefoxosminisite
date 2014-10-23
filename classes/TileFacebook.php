@@ -54,11 +54,11 @@ class TileFacebook {
         while (empty($fb) && $i <= 9) {
             if (isset($graphObject['data'][$i]->message)) {
                 try {
-                    $fb['status'] = $graphObject['data'][$i]->message;
+                    $fb['status'] = htmlentities($graphObject['data'][$i]->message);
                     $id           = $graphObject['data'][$i]->id;
                     $id = explode('_', $id);
                     $fb['id'] = $id[1];
-               } catch(Exception $e) {}
+               } catch (Exception $e) {}
             }
             $i++;
         }

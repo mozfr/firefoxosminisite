@@ -65,14 +65,22 @@
 }
 
 #promo-8 {
-  background: url(../media/img/fb.png) no-repeat 20px 20px,
-              #5E6BA1;
+  background: #5E6BA1;
 }
 
-#promo-8 p {
-  padding: 5px 5px 0 70px;
-  overflow: hidden;
-  word-wrap: break-word;
+#promo-8 .twt-actions .twt-account {
+  background: url(../media/img/fb.png) no-repeat;
+}
+#promo-8 .twt-actions .twt-account::before {
+  content: "";
+}
+
+#promo-8 .twt-text .ellipsis {
+  display: block;
+}
+
+#promo-8 .twt-text .ellipsis::after {
+  background-color: #5E6BA1;
 }
 
 #promo-9 {
