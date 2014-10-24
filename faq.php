@@ -61,9 +61,9 @@ Le système est relativement moins gourmand que ses homologues et il n'y a pas b
 		    <dt id="candycrush"> Est-ce qu'il y a Candy Crush ?</dt> 
 		        <dd>Oui, il est disponible sur le Firefox Marketplace. Attention, ce n'est pas le jeu complet avec les missions et tout. Juste le système de jeux.</dd>
 		    <dt id="fb"> Est-ce qu'il y a Facebook ?</dt> 
-		        <dd> Oui, il est pré-embarqué</dd>
+		        <dd> Oui, il est pré-embarqué.</dd>
 		    <dt id="tw"> Est-ce qu'il y a Twitter ?</dt> 
-		        <dd> Oui, il est pré-embarqué</dd>
+		        <dd> Oui, il est pré-embarqué.</dd>
 		    <dt id="whatapp"> Est-ce qu'il y a Whatsapp ?</dt> 
 		        <dd>
 PLusieurs applications permettent de se connecter à Whatsapp, telles que ConnectA2 et Loqui IM . Ce sont des agrégateurs de messagerie instantanée, on peut récupérer tous ses contacts Whatsapp et chatter avec eux, en passant par la plateforme Whatsapp.</dd>
@@ -114,11 +114,11 @@ On peut aussi faire une «&nbsp;recherche intelligente&nbsp;»&nbsp;: des applic
 		    <dt id="pourquoilui"> Pourquoi choisir ce téléphone ?</dt> 
 				<dd>Firefox OS est simple comme bonjour, l'interface est intuitive et simple&nbsp;: tout est disponible dès le démarrage du téléphone.</dd>
 		    <dt id="bluetooth"> Il a le Bluetooth ?</dt> 
-		        <dd>Oui le ZTE Open C est équipé du Bluetooth 4.0 </dd>
+		        <dd>Oui le ZTE Open C est équipé du Bluetooth 4.0. </dd>
 		    <dt id="sav"> Comment marche le SAV ?</dt> 
-		        <dd>Le SAV est assuré par ZTE France</dd>
+		        <dd>Le SAV est assuré par ZTE France.</dd>
 		    <dt id="langues"> Quelles sont les langues disponibles sur le ZTE Open C ?</dt> 
-		        <dd>Du français à l'anglais en passant par le catalan plus de 25 langues sont disponibles</dd>
+		        <dd>Du français à l'anglais en passant par le catalan plus de 25 langues sont disponibles.</dd>
 		    <dt id="radio"> Possède-t-il la radio ?</dt>
 					<dd>Oui il possède un module de radio FM. Toutefois des écouteurs sont nécessaires pour faire office d'antenne.</dd>
 		    <dt id="bidouille"> Où puis-je trouver des informations sur le root et la bidouille du téléphone ?</dt> 
