@@ -17,7 +17,7 @@
         <li id="promo-1" class="item promo-large-portrait mission" data-name="Application du jour" tabindex="0">
           <h2 class="primary go">L’appli du jour</h2>
           <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
-          <a class="panel-link" href="https://www.mozfr.org">
+          <a class="panel-link" href="https://marketplace.firefox.com/popular">
             <div class="secondary">
               <h3>Chaque jour, découvrez une nouvelle application.</h3>
               <p class="more">Découvrez l’application</p>
@@ -94,7 +94,14 @@
           </a>
         </li>
         <li id="promo-11" class="item promo-large-landscape support" tabindex="0" data-name="Vidéo Youtube">
-          <div id="player"></div>
+          <div id="player" class="youtube-video"></div>
+          <h2 class="primary go youtube-logo">Chaîne Youtube<br>Firefox OS FR</h2>
+          <a class="panel-link youtube-logo" href="https://www.youtube.com/channel/UCbkLDekPQHxeTJZ8jPb8LBw">
+            <div class="secondary">
+              <h3>Découvrez Firefox&nbsp;OS en vidéo sur notre chaîne.</h3>
+              <p class="more">Découvrez la chaîne</p>
+            </div>
+          </a>
         </li>
         <li id="promo-12" class="item promo-large-landscape apps" data-name="Où acheter un téléphone" tabindex="0">
           <h2 class="primary go">Où acheter un téléphone&nbsp;?</h2>
