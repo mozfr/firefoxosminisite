@@ -29,10 +29,10 @@
           <div class="twt-container">
             <p class="twt-text" id="twt-body">
               <?=$tweet_text?>
-              <span class="ellipsis" title="<?=$tweet_text?>"></span>
+              <a href="https://twitter.com/<?=$tweet[$tweet_id]['screen_name']?>/status/<?=$tweet_id?>" title="<?=$tweet_text?>"><span class="ellipsis"></span></a>
             </p>
             <div class="twt-actions">
-              <a href="https://twitter.com/<?=$tweet[$tweet_id]['screen_name']?>" class="twt-account" title="<?=$tweet[$tweet_id]['name']?>" data-name="Compte Twitter de <?=$tweet[$tweet_id]['name']?>"></a>
+              <a href="https://twitter.com/<?=$tweet[$tweet_id]['screen_name']?>" class="twt-account" title="Compte Twitter <?=$tweet[$tweet_id]['name']?>" data-name="Compte Twitter de <?=$tweet[$tweet_id]['name']?>"></a>
               <a href="https://twitter.com/intent/tweet?in_reply_to=<?=$tweet_id?>" class="twt-reply" title="Répondre" data-name="Répondre au tweet de <?=$tweet[$tweet_id]['name']?>">Répondre</a>
               <a href="https://twitter.com/intent/retweet?tweet_id=<?=$tweet_id?>" class="twt-rt" title="Retweeter" data-name="Retweeter le tweet de <?=$tweet[$tweet_id]['name']?>">Retweeter</a>
             </div>
@@ -71,10 +71,10 @@
           <div class="twt-container">
             <p class="twt-text" id="twt-body">
               <?=$fb_res['status']?>
-              <span class="ellipsis" title="<?=$fb_res['status']?>"></span>
+              <a href="https://www.facebook.com/firefoxosfr/posts/<?=$fb_res['id']?>" title="<?=$fb_res['status']?>"><span class="ellipsis"></span></a>
             </p>
             <div class="twt-actions">
-              <a href="https://www.facebook.com/firefoxosfr/posts/<?=$fb_res['id']?>" class="twt-account" title="Lien vers le statut Facebook" data-name="Lien vers le statut Facebook"></a>
+              <a href="https://www.facebook.com/firefoxosfr/" class="twt-account" title="Firefox OS FR sur Facebook" data-name="Lien vers le compte Facebook"></a>
             </div>
           </div>
         </li>

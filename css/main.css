@@ -79,6 +79,11 @@
   display: block;
 }
 
+#promo-2.promo-small-landscape.twt .twt-text .ellipsis,
+#promo-8.promo-small-landscape.twt .twt-text .ellipsis {
+  cursor: pointer;
+}
+
 #promo-8 .twt-text .ellipsis::after {
   background-color: #5E6BA1;
 }
