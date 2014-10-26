@@ -50,11 +50,14 @@
                 <li>
                   <a class="download-link" href="http://forums.mozfr.org/viewforum.php?f=35">
                     <span class="download-content">
-                      <span class="download-subtitle">Accédez au forum d’assistance</span>
+                      <span class="download-subtitle">Forum d’assistance communautaire</span>
                     </span>
                   </a>
                 </li>
               </ul>
+              <small class="download-other">
+                <a href="http://www.ztefrance.com/assistance/">FAQ de ZTE France</a>
+              </small>
             </div>
           </div>
         </li>
