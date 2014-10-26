@@ -21,7 +21,7 @@
           <ul>
             <li><a href="https://twitter.com/firefoxosfr">Twitter<span> (@firefoxosfr)</span></a></li>
             <li><a href="https://www.facebook.com/firefoxosfr">Facebook<span> (Firefox OS FR)</span></a></li>
-            <li><a href="https://plus.google.com/102403271624576887074" rel="publisher">Google+<span> (Firefox OS FR)</span></a></li>
+            <li><a href="https://plus.google.com/102403271624576887074" rel="publisher">Google+</a></li>
             <li><a href="https://www.youtube.com/channel/UCbkLDekPQHxeTJZ8jPb8LBw">YouTube<span> (Firefox OS FR)</span></a></li>
           </ul>
         </li>
