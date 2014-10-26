@@ -17,7 +17,7 @@
         <li id="promo-1" class="item promo-large-portrait mission" data-name="Application du jour" tabindex="0">
           <h2 class="primary go">L’appli du jour</h2>
           <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
-          <a class="panel-link" href="https://marketplace.firefox.com/popular">
+          <a class="panel-link" href="https://marketplace.firefox.com/popular" rel="external">
             <div class="secondary">
               <h3>Chaque jour, découvrez une nouvelle application.</h3>
               <p class="more">Découvrez l’application</p>
@@ -48,7 +48,7 @@
             <div id="download-button-desktop-release" class="download-button download-button-simple">
               <ul role="presentation" class="download-list">
                 <li>
-                  <a class="download-link" href="http://forums.mozfr.org/viewforum.php?f=35">
+                  <a class="download-link" href="http://forums.mozfr.org/viewforum.php?f=35" rel="external">
                     <span class="download-content">
                       <span class="download-subtitle">Forum d’assistance communautaire</span>
                     </span>
@@ -56,21 +56,21 @@
                 </li>
               </ul>
               <small class="download-other">
-                <a href="http://www.ztefrance.com/assistance/">FAQ de ZTE France</a>
+                <a href="http://www.ztefrance.com/assistance/" rel="external">FAQ de ZTE France</a>
               </small>
             </div>
           </div>
         </li>
-        <li id="promo-6" class="item promo-large-landscape webmaker" tabindex="0" data-name="Mamie fox">
+        <li id="promo-6" class="item promo-large-landscape mamie-fox" tabindex="0" data-name="Mamie fox">
           <h2 class="primary go">Mamie fox (bientôt)</h2>
-          <!--<a class="panel-link" rel="external" href="http://mozfr.org/">-->
+          <a class="panel-link" href="#">
             <div class="secondary">
               <h3>Mamie fox débarque bientôt !</h3>
               <!--<p class="more">Lorem ipsum</p>-->
             </div>
-          <!--</a>-->
+          </a>
         </li>
-        <li id="promo-8" class="item promo-small-landscape appmaker twt" data-name="Dernier statut Facebook">
+        <li id="promo-8" class="item promo-small-landscape twt" data-name="Dernier statut Facebook">
           <div class="twt-container">
             <p class="twt-text" id="twt-body">
               <?=$fb_res['status']?>
@@ -82,34 +82,34 @@
           </div>
         </li>
         <li id="promo-9" class="item promo-small-landscape volunteer" data-name="Firefox OS pour les développeurs">
-          <a class="panel-link" href="https://developer.mozilla.org/fr/Firefox_OS">
+          <a class="panel-link" href="https://developer.mozilla.org/fr/Firefox_OS" rel="external">
             <h2>Firefox&nbsp;OS pour les développeurs</h2>
           </a>
         </li>
-        <li id="promo-10" class="item promo-large-portrait firefox-desktop" tabindex="0" data-name="La parole est aux mozilliens">
+        <li id="promo-10" class="item promo-large-portrait foxprimez-vous" tabindex="0" data-name="La parole est aux mozilliens">
         <img class="primary go" src="media/img/foxprimez-vous.png" alt="Le renard s’exprime publiquement">
           <h2 class="primary go">Foxprimez-vous</h2>
-          <a class="panel-link" href="http://www.mozfr.org">
+          <a class="panel-link" href="http://www.mozfr.org" rel="external">
             <div class="secondary">
               <h3>La parole <br>est aux mozilliens.</h3>
               <p class="more">Découvrez un témoignage de mozillien</p>
             </div>
           </a>
         </li>
-        <li id="promo-11" class="item promo-large-landscape support" tabindex="0" data-name="Vidéo Youtube">
+        <li id="promo-11" class="item promo-large-landscape" tabindex="0" data-name="Vidéo Youtube">
           <div id="player" class="youtube-video"></div>
           <h2 class="primary go youtube-logo">Chaîne Youtube<br>Firefox OS FR</h2>
-          <a class="panel-link youtube-logo" href="https://www.youtube.com/channel/UCbkLDekPQHxeTJZ8jPb8LBw">
+          <a class="panel-link youtube-logo" href="https://www.youtube.com/channel/UCbkLDekPQHxeTJZ8jPb8LBw" rel="external">
             <div class="secondary">
               <h3>Découvrez Firefox&nbsp;OS en vidéo sur notre chaîne.</h3>
               <p class="more">Découvrez la chaîne</p>
             </div>
           </a>
         </li>
-        <li id="promo-12" class="item promo-large-landscape apps" data-name="Où acheter un téléphone" tabindex="0">
+        <li id="promo-12" class="item promo-large-landscape" data-name="Où acheter un téléphone" tabindex="0">
           <h2 class="primary go">Où acheter un téléphone&nbsp;?</h2>
           <img class="primary go" src="media/img/openc.png" alt="Téléphone ZTE Open sous Firefox OS">
-          <a class="panel-link" href="https://www.mozilla.org/fr/firefox/os/devices/">
+          <a class="panel-link" href="https://www.mozilla.org/fr/firefox/os/devices/" rel="external">
             <div class="secondary">
               <h3>Découvrez les différentes offres de téléphones Firefox&nbsp;OS.</h3>
               <p class="more">J’achète le mien</p>

@@ -52,6 +52,14 @@
   content: "";
 }
 
+.mamie-fox {
+  background: #E14164;
+}
+
+.foxprimez-vous {
+  background: #00AF84;
+}
+
 #promo-1 {
   background: #E66000;
 }
@@ -71,6 +79,7 @@
 #promo-8 .twt-actions .twt-account {
   background: url(../media/img/fb.png) no-repeat;
 }
+
 #promo-8 .twt-actions .twt-account::before {
   content: "";
 }
@@ -120,6 +129,7 @@
 
 #promo-12 {
   background: #0C99D5;
+  left: 320px;
 }
 
 #promo-12 h2 {
@@ -131,9 +141,6 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
-.promo-grid #promo-12 {
-  left: 320px;
 }
 
 @media only screen and  (min-width: 1300px) {

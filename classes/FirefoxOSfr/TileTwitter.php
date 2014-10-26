@@ -1,4 +1,5 @@
 <?php
+namespace FirefoxOSfr;
 use TwitterOAuth\TwitterOAuth;
 /*
  * Code de la classe Twitter.php servant à récupérer

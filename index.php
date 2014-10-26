@@ -1,12 +1,9 @@
 <?php
-
+namespace FirefoxOSfr;
 require_once 'vendor/autoload.php';
-require_once 'classes/TileFacebook.php';
-require_once 'classes/TileTwitter.php';
 
 $fb_res = [];
 $tweet = [];
-
 
 $fb = new TileFacebook('config/config.ini');
 $fb_res = $fb->getLatestStatus();

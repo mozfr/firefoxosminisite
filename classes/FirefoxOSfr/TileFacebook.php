@@ -1,4 +1,5 @@
 <?php
+namespace FirefoxOSfr;
 use Facebook\FacebookSession;
 use Facebook\FacebookRequest;
 
