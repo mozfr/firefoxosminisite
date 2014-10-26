@@ -5,6 +5,7 @@ Dépendances techniques :
 ========================= 
 
 Composer (Dependency Manager for PHP, http://getcomposer.org/)
+php5-curl package, |sudo apt-get install php5-curl|
 
 
 Installation :

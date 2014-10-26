@@ -105,6 +105,10 @@
   background: #666;
 }
 
+#promo-11 .youtube-logo {
+  display: none;
+}
+
 #player {
   margin: 5px;
 }
@@ -194,6 +198,14 @@
     top: 1120px;
     left: 320px;
   }
+
+  #promo-11 .youtube-logo {
+    display: inline-block;
+  }
+
+  #promo-11 .youtube-video {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 659px) {
@@ -209,5 +221,13 @@
   .promo-grid #promo-12 {
     display: block;
     left: 0px;
+  }
+
+  #promo-11 .youtube-logo {
+    display: inline-block;
+  }
+
+  #promo-11 .youtube-video {
+    display: none;
   }
 }
