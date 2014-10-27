@@ -4,7 +4,6 @@
 date_default_timezone_set('Europe/Paris');
 
 // app variables
-$web_root = __DIR__;
 $app_root = realpath(__DIR__ . '/../');
 $composer = $app_root . '/composer.phar';
 
@@ -12,7 +11,6 @@ $composer = $app_root . '/composer.phar';
 $branch = 'master';
 $header = 'HTTP_X_HUB_SIGNATURE';
 $secret = parse_ini_file($app_root . '/config/config.ini')['github_key'];
-
 
 // Logging function to output content to /github_log.txt
 function logHookResult($message , $success = false) {
@@ -47,6 +45,11 @@ if (isset($_SERVER[$header])) {
         // Install or update dependencies
         if (file_exists($composer)) {
             chdir($app_root);
+
+            // www-data does not have a HOME or COMPOSER_HOME, create one
+            mkdir("{$app_root}/.composer");
+            putenv("COMPOSER_HOME={$app_root}/.composer");
+
             if (file_exists($app_root . '/vendor')) {
                 exec("php {$composer} update > /dev/null 2>&1");
             } else {
