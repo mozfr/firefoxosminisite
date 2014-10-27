@@ -12,7 +12,7 @@ $fb = new TileFacebook('../config/config.ini');
 $fb_res = $fb->getLatestStatus();
 
 $twitter = new TileTwitter('../config/config.ini');
-$tweet = $twitter->getTweetWritenBy(2228736763, 1, 'firefoxosfr');
+$tweet = $twitter->getTweetWrittenBy(2228736763, 1, 'firefoxosfr');
 $tweet_id = array_keys($tweet)[0];
 $tweet_text = $tweet[$tweet_id]['text'];
 

@@ -42,7 +42,15 @@ class TileTwitter {
         }
     }
 
-    public function getTweetWritenBy($idAccountToFollow, $numberOfTweet, $screenNameToFollow) {
+    /**
+     * Uses Twitter API to fetch one or several tweets from a given Twitter account
+     * @param $idAccountToFollow Integer, Twitter account ID
+     * @param $numberOfTweet Integer, number of tweet (text, scren name, name) you need
+     * @param $numberOfTweet String, the screen name of the account (e.g. Firefox OS FR)
+     * @return Array of tweet ID containing another array which contains the text of the tweet,
+     *  the screen name and the account name (e.g. firefoxosfr).
+     */
+    public function getTweetWrittenBy($idAccountToFollow, $numberOfTweet, $screenNameToFollow) {
 
         $cache_id = 'twitter' . $idAccountToFollow . $numberOfTweet;
         if (! $tweets = Cache::getKey($cache_id)) {

@@ -1,7 +1,7 @@
 <?php
 namespace FirefoxOSfr;
 
-/* Cache class comming from Transvision project: https://github.com/mozfr/transvision */
+/* Cache class coming from Transvision project: https://github.com/mozfr/transvision */
 
 /**
  * Cache class
