@@ -62,7 +62,8 @@
           </div>
         </li>
         <li id="promo-6" class="item promo-large-landscape mamie-fox" tabindex="0" data-name="Mamie fox">
-          <h2 class="primary go">Mamie fox (bientôt)</h2>
+          <img class="primary go" src="media/img/mamie-fox.png" alt="Mamie fox">
+          <h2 class="primary go">Mamie fox</h2>
           <a class="panel-link" href="#">
             <div class="secondary">
               <h3>Mamie fox débarque bientôt !</h3>

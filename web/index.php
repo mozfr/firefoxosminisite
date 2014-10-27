@@ -2,6 +2,9 @@
 namespace FirefoxOSfr;
 require_once '../vendor/autoload.php';
 
+// Cache contant
+define("CACHE_PATH", "../cache/");
+
 $fb_res = [];
 $tweet = [];
 

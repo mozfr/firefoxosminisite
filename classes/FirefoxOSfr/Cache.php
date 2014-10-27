@@ -1,6 +1,6 @@
 <?php
 namespace FirefoxOSfr;
-define("CACHE_PATH", "../cache/");
+
 /* Cache class comming from Transvision project: https://github.com/mozfr/transvision */
 
 /**
