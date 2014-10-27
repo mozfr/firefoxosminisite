@@ -6,25 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Firefox OS — Regardez l’avenir</title>
-  <meta name="description" content="">
+  <meta name="description" content="Site de présentation de Firefox OS, maintenu par la communauté Mozilla francophone.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Firefox OS en français">
   <meta property="og:locale" content="fr">
   <meta property="og:url" content="http://firefoxos.mozfr.org/">
-  <meta property="og:image" content="./firefox-os256.png">
+  <meta property="og:image" content="http://firefoxos.mozfr.org/media/img/firefox-os256.png">
   <meta property="og:title" content="Firefox OS en français">
   <meta property="og:description" content="Site de présentation de Firefox OS, maintenu par la communauté Mozilla francophone.">
   <meta property="fb:page_id" content="571893379557863">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@firefoxosfr">
-  <link rel="shortcut icon" href="./favicon128.png">
-  <link rel="apple-touch-icon" type="image/png" sizes="128x128" href="./favicon128.png">
-  <link rel="icon" type="image/png" sizes="128x128" href="./favicon128.png">
+  <meta name="twitter:domain" content="firefoxos.mozfr.org">
+  <link rel="shortcut icon" href="./media/img/favicon128.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="128x128" href="./media/img/favicon128.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="./media/img/favicon128.png">
   <link rel="canonical" hreflang="fr" href="http://firefoxos.mozfr.org/">
   <link rel="stylesheet" media="screen,projection,tv" href="css/responsive-min.css">
   <link rel="stylesheet" media="screen,projection,tv" href="css/home-2015-min.css">
   <link rel="stylesheet" media="screen,projection,tv" href="css/main.css">
-  <link rel="shortcut icon" href="./favicon.ico?v=2">
+  <link rel="shortcut icon" href="./media/img/favicon.ico?v=3">
   <script src="media/js/site-min.js"></script>
   <!-- Async player loading -->
   <script src="media/js/player.js"></script>

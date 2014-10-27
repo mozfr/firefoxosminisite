@@ -15,7 +15,7 @@ class TileFacebook {
     */
     public function __construct($pathToConf) {
         if (! file_exists($pathToConf) || ! is_readable($pathToConf)) {
-            throw new Exception('TileFacebook.php : config file not found');
+            throw new \Exception('TileFacebook.php : config file not found');
         } else {
             $config = parse_ini_file($pathToConf, false);
 
@@ -30,22 +30,26 @@ class TileFacebook {
     * @return Array containing the latest status and its ID
     */
     public function getLatestStatus() {
-        FacebookSession::setDefaultApplication($this->_fb_appID, $this->_fb_appsecret);
+        $cache_id = 'facebook' . $this->_fb_appID;
+        if (! $graphObject = Cache::getKey($cache_id)) {
+            FacebookSession::setDefaultApplication($this->_fb_appID, $this->_fb_appsecret);
 
-        // Get session token from app ID and App secret
-        $url = 'https://graph.facebook.com/oauth/access_token?client_id=' . $this->_fb_appID . '&client_secret=' . $this->_fb_appsecret . '&grant_type=client_credentials&redirect_uri=http://firefoxos.mozfr.org/';
-        $content = file_get_contents($url);
-        $token = str_replace('access_token=', '', $content);
+            // Get session token from app ID and App secret
+            $url = 'https://graph.facebook.com/oauth/access_token?client_id=' . $this->_fb_appID . '&client_secret=' . $this->_fb_appsecret . '&grant_type=client_credentials&redirect_uri=http://firefoxos.mozfr.org/';
+            $content = file_get_contents($url);
+            $token = str_replace('access_token=', '', $content);
 
-        $session = new FacebookSession($token);
-        $request = new FacebookRequest(
-            $session,
-            'GET',
-            '/' . $this->_fb_pageID . '/posts?limit=10'
-        );
+            $session = new FacebookSession($token);
+            $request = new FacebookRequest(
+                $session,
+                'GET',
+                '/' . $this->_fb_pageID . '/posts?limit=10'
+            );
 
-        $response = $request->execute();
-        $graphObject = $response->getGraphObject()->asArray();
+            $response = $request->execute();
+            $graphObject = $response->getGraphObject()->asArray();
+            Cache::setKey($cache_id, $graphObject);
+        }
 
         // Keep parsing graphObject activity until an actual post is found.
         // Currently, activity includes page comments, and they don't have a 'message' field,

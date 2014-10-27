@@ -31,7 +31,7 @@ class TileTwitter {
      */
     public function __construct($pathToConf) {
         if (! file_exists($pathToConf) || ! is_readable($pathToConf)) {
-            throw new Exception('TileTwitter.php : config file not found');
+            throw new \Exception('TileTwitter.php : config file not found');
         } else {
             $config = parse_ini_file($pathToConf, false);
 
@@ -44,25 +44,30 @@ class TileTwitter {
 
     public function getTweetWritenBy($idAccountToFollow, $numberOfTweet, $screenNameToFollow) {
 
-        $connection = new TwitterOAuth(
+        $cache_id = 'twitter' . $idAccountToFollow . $numberOfTweet;
+        if (! $tweets = Cache::getKey($cache_id)) {
+            $connection = new TwitterOAuth(
+                                array(
+                                   'oauth_token'        => $this->_accesstoken,
+                                   'oauth_token_secret' => $this->_accesstokensecret,
+                                   'consumer_key'       => $this->_consumerkey,
+                                   'consumer_secret'    => $this->_consumersecret
+                                )
+                            );
+
+            $tweets = $connection->get(
+                            'statuses/user_timeline',
                             array(
-                               'oauth_token'        => $this->_accesstoken,
-                               'oauth_token_secret' => $this->_accesstokensecret,
-                               'consumer_key'       => $this->_consumerkey,
-                               'consumer_secret'    => $this->_consumersecret
+                                'count'           => $numberOfTweet,
+                                'exclude_replies' => 1,
+                                'include_rts'     => 0,
+                                'user_id'         => $idAccountToFollow,
+                                'screen_name'     => $screenNameToFollow
                             )
                         );
 
-        $tweets = $connection->get(
-                        'statuses/user_timeline',
-                        array(
-                            'count'           => $numberOfTweet,
-                            'exclude_replies' => 1,
-                            'include_rts'     => 0,
-                            'user_id'         => $idAccountToFollow,
-                            'screen_name'     => $screenNameToFollow
-                        )
-                    );
+            Cache::setKey($cache_id, $tweets);
+        }
 
         $array_tweets = [];
         foreach ($tweets as $tweet) {
