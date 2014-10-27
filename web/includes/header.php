@@ -11,7 +11,7 @@
   <meta property="og:site_name" content="Firefox OS en français">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:url" content="http://firefoxos.mozfr.org/">
-  <meta property="og:image" content="/media/img/firefox-os256.png">
+  <meta property="og:image" content="http://firefoxos.mozfr.org/media/img/firefox-os256.png">
   <meta property="og:title" content="Firefox OS en français">
   <meta property="og:description" content="Site de présentation de Firefox OS, maintenu par la communauté Mozilla francophone.">
   <meta property="fb:page_id" content="571893379557863">
