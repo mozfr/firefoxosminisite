@@ -1,7 +1,8 @@
 {
   "require" : {
     "facebook/php-sdk-v4" : "4.0.*",
-    "ricardoper/twitteroauth": "1.*"
+    "ricardoper/twitteroauth": "1.*",
+    "monolog/monolog" : "1.10.0"
   },
   "autoload": {
     "psr-0": {"FirefoxOSfr": "classes/"}
