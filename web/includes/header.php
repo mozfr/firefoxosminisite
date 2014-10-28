@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Firefox OS — Regardez l’avenir</title>
-  <meta name="description" content="Site de présentation de Firefox OS, maintenu par la communauté Mozilla francophone.">
+  <meta name="description" content="Firefox OS vous offre toutes les fonctionnalités qui vous ont donné envie d’avoir un smartphone et s’adapte à votre style de vie, pour que vous puissiez vous adapter au monde qui vous entoure.">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Firefox OS en français">
+  <meta property="og:site_name" content="Firefox OS — Regardez l’avenir">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:url" content="http://firefoxos.mozfr.org/">
   <meta property="og:image" content="http://firefoxos.mozfr.org/media/img/firefox-os-social.png">
-  <meta property="og:title" content="Firefox OS en français">
-  <meta property="og:description" content="Site de présentation de Firefox OS, maintenu par la communauté Mozilla francophone.">
+  <meta property="og:title" content="Firefox OS — Regardez l’avenir">
+  <meta property="og:description" content="Firefox OS vous offre toutes les fonctionnalités qui vous ont donné envie d’avoir un smartphone et s’adapte à votre style de vie, pour que vous puissiez vous adapter au monde qui vous entoure.">
   <meta property="fb:page_id" content="571893379557863">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@firefoxosfr">
