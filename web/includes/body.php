@@ -55,9 +55,6 @@
                   </a>
                 </li>
               </ul>
-              <small class="download-other">
-                <a href="http://www.ztefrance.com/assistance/" rel="external">FAQ de ZTE France</a>
-              </small>
             </div>
           </div>
         </li>
