@@ -87,7 +87,7 @@
         <li id="promo-10" class="item promo-large-portrait foxprimez-vous" tabindex="0" data-name="La parole est aux mozilliens">
         <img class="primary go" src="media/img/foxprimez-vous.png" alt="Le renard s’exprime publiquement">
           <h2 class="primary go">Foxprimez-vous</h2>
-          <a class="panel-link" href="http://www.mozfr.org" rel="external">
+          <a class="panel-link" href="https://www.blog.mozfr.org" rel="external">
             <div class="secondary">
               <h3>La parole <br>est aux mozilliens.</h3>
               <p class="more">Découvrez un témoignage de mozillien</p>
