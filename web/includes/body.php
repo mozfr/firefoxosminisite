@@ -86,7 +86,7 @@
         </li>
         <li id="promo-10" class="item promo-large-portrait foxprimez-vous" tabindex="0" data-name="La parole est aux mozilliens">
         <img class="primary go" src="media/img/foxprimez-vous.png" alt="Le renard s’exprime publiquement">
-          <h2 class="primary go">Foxprimez-vous</h2>
+          <h2 class="primary go">Fox’primez-vous</h2>
           <a class="panel-link" href="http://blog.mozfr.org/post/2014/11/Flore-Allemandou--en-couple-avec-le-Fox-depuis-10-ans" rel="external">
             <div class="secondary">
               <h3>Prenez la parole et la communauté vous répond&nbsp;!</h3>
