@@ -19,7 +19,7 @@
           <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
           <a class="panel-link" href="http://blog.mozfr.org/post/2014/11/appdujour-%3A-Trouvez-biere-avec-Open-Beer-Map-" rel="external">
             <div class="secondary">
-              <h3>La communauté vous présente ses applications favorites sur Firefox OS.</h3>
+              <h3>La communauté vous présente ses applications favorites sur Firefox&nbsp;OS.</h3>
               <p class="more">Découvrez l’application</p>
             </div>
           </a>
@@ -63,8 +63,8 @@
           <h2 class="primary go">Mamie Fox</h2>
           <a class="panel-link" href="http://blog.mozfr.org/post/2014/11/Bonjour--Je-m-appelle-Mamie-Fox---" rel="external">
             <div class="secondary">
-              <h3>Bonjour! Je suis Mamie Fox!</h3>
-              <p class="more">Découvrons ensemble internet, Firefox OS et le logiciel libre</p>
+              <h3>Bonjour&nbsp;! Je suis Mamie Fox&nbsp;!</h3>
+              <p class="more">Découvrons ensemble Internet, Firefox&nbsp;OS et le logiciel libre</p>
             </div>
           </a>
         </li>
@@ -89,7 +89,7 @@
           <h2 class="primary go">Foxprimez-vous</h2>
           <a class="panel-link" href="http://blog.mozfr.org/post/2014/11/Flore-Allemandou--en-couple-avec-le-Fox-depuis-10-ans" rel="external">
             <div class="secondary">
-              <h3>Prenez la parole et la communauté vous répond!</h3>
+              <h3>Prenez la parole et la communauté vous répond&nbsp;!</h3>
               <p class="more">Flore Allemandou + le Fox</p>
             </div>
           </a>
