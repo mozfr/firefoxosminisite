@@ -48,7 +48,7 @@
             <div id="download-button-desktop-release" class="download-button download-button-simple">
               <ul role="presentation" class="download-list">
                 <li>
-                  <a class="download-link" href="http://blog.mozfr.org/post/2014/11/Bienvenue-sur-la-page-Assistance-Firefox-OS-" rel="external">
+                  <a class="download-link" href="http://blog.mozfr.org/post/Page-Assistance-Firefox-OS" rel="external">
                     <span class="download-content">
                       <span class="download-subtitle">Demandez de l'aide à la communauté</span>
                     </span>
