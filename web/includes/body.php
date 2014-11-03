@@ -17,9 +17,9 @@
         <li id="promo-1" class="item promo-large-portrait mission" data-name="Application du jour" tabindex="0">
           <h2 class="primary go">L’appli du jour</h2>
           <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
-          <a class="panel-link" href="https://marketplace.firefox.com/popular" rel="external">
+          <a class="panel-link" href="http://blog.mozfr.org/post/2014/11/appdujour-%3A-Trouvez-biere-avec-Open-Beer-Map-" rel="external">
             <div class="secondary">
-              <h3>Chaque jour, découvrez une nouvelle application.</h3>
+              <h3>La communauté vous présente ses applications favorites sur Firefox OS.</h3>
               <p class="more">Découvrez l’application</p>
             </div>
           </a>
@@ -48,9 +48,9 @@
             <div id="download-button-desktop-release" class="download-button download-button-simple">
               <ul role="presentation" class="download-list">
                 <li>
-                  <a class="download-link" href="http://forums.mozfr.org/viewforum.php?f=35" rel="external">
+                  <a class="download-link" href="http://blog.mozfr.org/post/2014/11/Bienvenue-sur-la-page-Assistance-Firefox-OS-" rel="external">
                     <span class="download-content">
-                      <span class="download-subtitle">Forum d’assistance communautaire</span>
+                      <span class="download-subtitle">Demandez de l'aide à la communauté</span>
                     </span>
                   </a>
                 </li>
@@ -61,10 +61,10 @@
         <li id="promo-6" class="item promo-large-landscape mamie-fox" tabindex="0" data-name="Mamie fox">
           <img class="primary go" src="media/img/mamie-fox.png?27-10-2014" alt="Mamie fox">
           <h2 class="primary go">Mamie Fox</h2>
-          <a class="panel-link" href="#">
+          <a class="panel-link" href="http://blog.mozfr.org/post/2014/11/Bonjour--Je-m-appelle-Mamie-Fox---" rel="external">
             <div class="secondary">
-              <h3>Mamie Fox débarque bientôt !</h3>
-              <!--<p class="more">Lorem ipsum</p>-->
+              <h3>Bonjour! Je suis Mamie Fox!</h3>
+              <p class="more">Découvrons ensemble internet, Firefox OS et le logiciel libre</p>
             </div>
           </a>
         </li>
@@ -87,10 +87,10 @@
         <li id="promo-10" class="item promo-large-portrait foxprimez-vous" tabindex="0" data-name="La parole est aux mozilliens">
         <img class="primary go" src="media/img/foxprimez-vous.png" alt="Le renard s’exprime publiquement">
           <h2 class="primary go">Foxprimez-vous</h2>
-          <a class="panel-link" href="http://www.mozfr.org" rel="external">
+          <a class="panel-link" href="http://blog.mozfr.org/post/2014/11/Flore-Allemandou--en-couple-avec-le-Fox-depuis-10-ans" rel="external">
             <div class="secondary">
-              <h3>La parole <br>est aux mozilliens.</h3>
-              <p class="more">Découvrez un témoignage de mozillien</p>
+              <h3>Prenez la parole et la communauté vous répond!</h3>
+              <p class="more">Flore Allemandou + le Fox</p>
             </div>
           </a>
         </li>
