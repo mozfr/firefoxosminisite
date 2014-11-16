@@ -96,7 +96,7 @@
         </li>
         <li id="promo-11" class="item promo-large-landscape" tabindex="0" data-name="Vidéo Youtube">
           <div id="player" class="youtube-video"></div>
-          <h2 class="primary go youtube-logo">Chaîne Youtube<br>Firefox OS FR</h2>
+          <h2 class="primary go youtube-logo">Chaîne YouTube<br>Firefox OS FR</h2>
           <a class="panel-link youtube-logo" href="https://www.youtube.com/channel/UCbkLDekPQHxeTJZ8jPb8LBw" rel="external">
             <div class="secondary">
               <h3>Découvrez Firefox&nbsp;OS en vidéo sur notre chaîne.</h3>
@@ -110,7 +110,7 @@
           <a class="panel-link" href="https://www.mozilla.org/fr/firefox/os/devices/" rel="external">
             <div class="secondary">
               <h3>Découvrez les différentes offres de téléphones Firefox&nbsp;OS.</h3>
-              <p class="more">J’achète le mien</p>
+              <p class="more">J’achète le mien !</p>
             </div>
           </a>
         </li>
