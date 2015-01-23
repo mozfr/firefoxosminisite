@@ -61,7 +61,7 @@
         <li id="promo-6" class="item promo-large-landscape mamie-fox" tabindex="0" data-name="Mamie fox">
           <img class="primary go" src="media/img/mamie-fox.png?27-10-2014" alt="Mamie fox">
           <h2 class="primary go">Mamie Fox</h2>
-          <a class="panel-link" href="http://blog.mozfr.org/post/2014/12/Mamie-Fox-le-Fox-a-besoin-de-toi-pour-ameliorer-Internet" rel="external">
+          <a class="panel-link" href="http://blog.mozfr.org/post/2015/01/Mamie_Fox_le_Fox_annonce_importantes_nouveautes_Firefox_OS_CES_Las_Vegas" rel="external">
             <div class="secondary">
               <h3>Bonjour&nbsp;! Je suis Mamie Fox&nbsp;!</h3>
               <p class="more">Découvrons ensemble Internet, Firefox&nbsp;OS et le logiciel libre</p>
