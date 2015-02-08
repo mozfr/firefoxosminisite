@@ -90,7 +90,7 @@
           <a class="panel-link" href="http://blog.mozfr.org/post/2015/02/A-quel-age-offrir-un-smartphone-a-ses-enfants-Les-reponses-des-parents" rel="external">
             <div class="secondary">
               <h3>Prenez la parole et la communauté vous répond&nbsp;!</h3>
-              <p class="more">À quel âge le smartphone ?</p>
+              <p class="more">À quel âge le smartphone&nbsp;?</p>
             </div>
           </a>
         </li>
