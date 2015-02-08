@@ -86,11 +86,11 @@
         </li>
         <li id="promo-10" class="item promo-large-portrait foxprimez-vous" tabindex="0" data-name="La parole est aux mozilliens">
         <img class="primary go" src="media/img/foxprimez-vous.png" alt="Le renard s’exprime publiquement">
-          <h2 class="primary go">Fox’primez-vous</h2>
-          <a class="panel-link" href="http://blog.mozfr.org/post/2015/01/Le-futur-du-Web-analyse-par-la-communaute-Firefox-OS" rel="external">
+          <h2 class="primary go">Foxprimez-vous</h2>
+          <a class="panel-link" href="http://blog.mozfr.org/post/2015/02/A-quel-age-offrir-un-smartphone-a-ses-enfants-Les-reponses-des-parents" rel="external">
             <div class="secondary">
               <h3>Prenez la parole et la communauté vous répond&nbsp;!</h3>
-              <p class="more">Quel avenir pour le Web ?</p>
+              <p class="more">À quel âge le smartphone ?</p>
             </div>
           </a>
         </li>
