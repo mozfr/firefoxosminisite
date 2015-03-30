@@ -17,7 +17,7 @@
         <li id="promo-1" class="item promo-large-portrait mission" data-name="Application du jour" tabindex="0">
           <h2 class="primary go">L’appli du jour</h2>
           <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
-          <a class="panel-link" href="http://blog.mozfr.org/post/2015/03/L-application-de-prise-de-notes-de-Firefox-OS-avec-Evernote-integre" rel="external">
+          <a class="panel-link" href="http://blog.mozfr.org/post/2015/03/Sheep-saute-mouton-avec-Firefox-OS" rel="external">
             <div class="secondary">
               <h3>La communauté vous présente ses applications favorites sur Firefox&nbsp;OS.</h3>
               <p class="more">Découvrez l’application</p>
