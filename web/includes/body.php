@@ -17,7 +17,7 @@
         <li id="promo-1" class="item promo-large-portrait mission" data-name="Application du jour" tabindex="0">
           <h2 class="primary go">L’appli du jour</h2>
           <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
-          <a class="panel-link" href="http://blog.mozfr.org/post/2015/04/Les-previsions-meteo-sur-Firefox-OS-notre-selection" rel="external">
+          <a class="panel-link" href="http://blog.mozfr.org/post/2015/04/CloudActivity-client-Dropbox-pour-Firefox-OS" rel="external">
             <div class="secondary">
               <h3>La communauté vous présente ses applications favorites sur Firefox&nbsp;OS.</h3>
               <p class="more">Découvrez l’application</p>
@@ -87,10 +87,10 @@
         <li id="promo-10" class="item promo-large-portrait foxprimez-vous" tabindex="0" data-name="La parole est aux mozilliens">
         <img class="primary go" src="media/img/foxprimez-vous.png" alt="Le renard s’exprime publiquement">
           <h2 class="primary go">Foxprimez-vous</h2>
-          <a class="panel-link" href="http://blog.mozfr.org/post/2015/02/A-quel-age-offrir-un-smartphone-a-ses-enfants-Les-reponses-des-parents" rel="external">
+          <a class="panel-link" href="http://blog.mozfr.org/post/2015/04/Ce-qui-a-etonne-Pyves-en-rejoignant-le-groupe-comm-pour-Firefox-OS-et-Mozilla" rel="external">
             <div class="secondary">
               <h3>Prenez la parole et la communauté vous répond&nbsp;!</h3>
-              <p class="more">À quel âge le smartphone&nbsp;?</p>
+              <p class="more">Ce qui a étonné Pyves en rejoignant le groupe comm pour Firefox OS et Mozilla&nbsp;?</p>
             </div>
           </a>
         </li>
