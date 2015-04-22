@@ -87,10 +87,10 @@
         <li id="promo-10" class="item promo-large-portrait foxprimez-vous" tabindex="0" data-name="La parole est aux mozilliens">
         <img class="primary go" src="media/img/foxprimez-vous.png" alt="Le renard s’exprime publiquement">
           <h2 class="primary go">Foxprimez-vous</h2>
-          <a class="panel-link" href="http://blog.mozfr.org/post/2015/04/Ce-qui-a-etonne-Pyves-en-rejoignant-le-groupe-comm-pour-Firefox-OS-et-Mozilla" rel="external">
+          <a class="panel-link" href="https://blog.mozfr.org/post/2015/04/Aurelie-a-participe-au-futur-de-Firefox-OS" rel="external">
             <div class="secondary">
               <h3>Prenez la parole et la communauté vous répond&nbsp;!</h3>
-              <p class="more">Ce qui a étonné Pyves en rejoignant le groupe comm pour Firefox OS et Mozilla&nbsp;?</p>
+              <p class="more">Aurélie a participé au futur de Firefox OS</p>
             </div>
           </a>
         </li>
