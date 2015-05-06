@@ -17,7 +17,7 @@
         <li id="promo-1" class="item promo-large-portrait mission" data-name="Application du jour" tabindex="0">
           <h2 class="primary go">L’appli du jour</h2>
           <img class="primary go" src="media/img/logo-marketplace.png" alt="Logo du Firefox Marketplace">
-          <a class="panel-link" href="http://blog.mozfr.org/post/2015/04/CloudActivity-client-Dropbox-pour-Firefox-OS" rel="external">
+          <a class="panel-link" href="https://blog.mozfr.org/post/2015/04/Pweek-Le-puzzle-en-smileys" rel="external">
             <div class="secondary">
               <h3>La communauté vous présente ses applications favorites sur Firefox&nbsp;OS.</h3>
               <p class="more">Découvrez l’application</p>
@@ -61,7 +61,7 @@
         <li id="promo-6" class="item promo-large-landscape mamie-fox" tabindex="0" data-name="Mamie fox">
           <img class="primary go" src="media/img/mamie-fox.png?27-10-2014" alt="Mamie fox">
           <h2 class="primary go">Mamie Fox</h2>
-          <a class="panel-link" href="http://blog.mozfr.org/post/2015/04/Mamie-Fox-fait-des-cookies-3D" rel="external">
+          <a class="panel-link" href="https://blog.mozfr.org/post/2015/05/Mamie-Fox-revient-des-JDLL-2015" rel="external">
             <div class="secondary">
               <h3>Bonjour&nbsp;! Je suis Mamie Fox&nbsp;!</h3>
               <p class="more">Découvrons ensemble Internet, Firefox&nbsp;OS et le logiciel libre</p>
